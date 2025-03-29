@@ -11,7 +11,7 @@ Navigating, and Orienting the Visually Impaired`
 
 ### Strictly Robots
 - [The development of assisted- visually impaired people robot in the indoor environment based on deep learning](https://doi.org/10.1007/s11042-023-15644-y), *Multimedia Tools and Applications*, 2024
-- [DRAGON: A Dialogue-Based Robot for Assistive Navigation With Visual Language Grounding](https://doi.org/10.1109/LRA.2024.3362591), *IEEE Robotics and Automation Letters*, 2024
+- [DRAGON: A Dialogue-Based Robot for Assistive Navigation With Visual Language Grounding](https://doi.org/10.1109/LRA.2024.3362591), *IEEE Robotics and Automation Letters (RA-L)*, 2024
 - [Force-Estimation Based Interaction of Legged Robots through Whole-Body Dynamics](), *Intelligent Robotics and Applications*, 2023
 - [Robot-Assisted Navigation for Visually Impaired through Adaptive Impedance and Path Planning](https://arxiv.org/abs/2310.14705), *arXiv*, 2023
 - [Seeing-Eye Quadruped Navigation with Force Responsive Locomotion Control](https://proceedings.mlr.press/v229/defazio23a.html), *Conference on Robot Learning*, 2023
@@ -65,21 +65,21 @@ Navigating, and Orienting the Visually Impaired`
 - [A robotic wayfinding system for the visually impaired](), *Conference on Innovative Applications of Artifical Intelligence*, 2004
 - [Multiobjective Navigation of a Guide Mobile Robot for the Visually Impaired Based on Intention Inference of Obstacles](https://doi.org/10.1023/A:1008990105090), *Autonomous Robots*, 2001
 
-### Robots crossed with Augmented White Canes
+### Robots mixed with (Augmented) White Canes
 - [A Depth-Enhanced Visual Intertial Odometry for a Robotic Navigation Aid for Blind People](), *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) Workshop on Visual-Inertial Navigation: Challenges and Applications*, 2019
 - [Human-Robot Interaction for Assisted Wayfinding of a Robotic Navigation Aid for the Blind](https://doi.org/10.1109/HSI47298.2019.8942612), *IEEE International Conference on Human System Interaction (HSI)*, 2019
-- [Co-Robotic Cane: A New Robotic Navigation Aid for the Visually Impaired](https://doi.org/10.1109/MSMC.2015.2501167), *IEEE Systems, Man, and Cybernetics Magazine*, 2016
+- [Co-Robotic Cane: A New Robotic Navigation Aid for the Visually Impaired](https://doi.org/10.1109/MSMC.2015.2501167), *IEEE Systems, Man, and Cybernetics Magazine (SMC)*, 2016
 - [A Co-Robotic Cane for blind navigation](https://doi.org/10.1109/SMC.2014.6974058), *IEEE International Conference on Systems, Man, and Cybernetics (SMC)*, 2014
   
-### Robots crossed with Wearables
+### Robots mixed with Wearables
 - [The Aerial Guide Dog: A Low-Cognitive-Load Indoor Electronic Travel Aid for Visually Impaired Individuals](https://www.mdpi.com/1424-8220/24/1/297), *MDPI Sensors*, 2024
-- [Running Guidance for Visually Impaired People Using Sensory Augmentation Technology Based Robotic System](https://doi.org/10.1109/LRA.2023.3294718), *IEEE Robotics and Automation Letters*, 2023
+- [Running Guidance for Visually Impaired People Using Sensory Augmentation Technology Based Robotic System](https://doi.org/10.1109/LRA.2023.3294718), *IEEE Robotics and Automation Letters (RA-L)*, 2023
 - [Robotic Guidance System for Visually Impaired Users Running Outdoors Using Haptic Feedback](https://doi.org/10.1109/IROS51168.2021.9636567), *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2021
-- [Hierarchical and Safe Motion Control for Cooperative Locomotion of Robotic Guide Dogs and Humans: A Hybrid Systems Approach](https://doi.org/10.1109/LRA.2019.2939719), *IEEE Robotics and Automation Letters*, 2020
+- [Hierarchical and Safe Motion Control for Cooperative Locomotion of Robotic Guide Dogs and Humans: A Hybrid Systems Approach](https://doi.org/10.1109/LRA.2019.2939719), *IEEE Robotics and Automation Letters (RA-L)*, 2020
 - [The design and implementation of a walking assistant system with vibrotactile indication and voice prompt for the visually impaired](https://doi.org/10.1109/ROBIO.2013.6739885), *IEEE International Conference on Robotics and Biomimetics (ROBIO)*, 2013
-- [Electrocutaneous Communication in a Guide Dog Robot (MELDOG)](https://doi.org/10.1109/TBME.1985.325561), *IEEE Transactions on Biomedical Engineering*, 1985
+- [Electrocutaneous Communication in a Guide Dog Robot (MELDOG)](https://doi.org/10.1109/TBME.1985.325561), *IEEE Transactions on Biomedical Engineering (TBME)*, 1985
 
-### Robots crossed with Phones or Handhelds
+### Robots mixed with Phones or Handhelds
 - [AI Quadruped Robot Assistant for the Visually Impaired](https://doi.org/10.1109/IECON48115.2021.9589508), *IECON – Conference of the IEEE Industrial Electronics Society*, 2021
 - [Development of a Mobile Robot: Robotic Guide Dog for Aid of Visual Disabilities in Urban Environments](https://doi.org/10.1109/LARS-SBR-WRE48964.2019.00026), *IEEE Latin American Robotics Symposium (LARS), Brazilian Symposium on Robotics (SBR) and Workshop on Robotics in Education (WRE)*, 2019
 
@@ -93,7 +93,7 @@ Navigating, and Orienting the Visually Impaired`
 - [Wearable Navigation System for the Visually Impaired and Blind People](https://dl.acm.org/doi/abs/10.1109/ICIS.2012.118) *IEEE/ACIS International Conference on Computer and Information Science (ICIS)*, 2012
 - [Toward a computer vision-based wayfinding aid for blind persons to access unfamiliar indoor environments](https://doi.org/10.1007/s00138-012-0431-7), *Springer Machine Vision and Applications*, 2013
 - [Way-finding Electronic Bracelet for visually impaired people](https://doi.org/10.1109/PHT.2013.6461334), *IEEE Point-of-Care Healthcare Technologies (PHT)*, 2013
-- [Development of a wearable system for navigating the visually impaired in the indoor environment - a prototype system for fork detection and navigation -](https://ieeexplore.ieee.org/document/6926310), *IEEE RO-MAN*, 2014
+- [Development of a wearable system for navigating the visually impaired in the indoor environment - a prototype system for fork detection and navigation -](https://ieeexplore.ieee.org/document/6926310), *IEEE Robot and Human Interactive Communication (RO-MAN)*, 2014
 - [Headlock: a wearable navigation aid that helps blind cane users traverse large open spaces](https://doi.org/10.1145/2661334.2661453), *ACM Conference on Computers & Accessibility*, 2014
 - [Vibrotactile Guidance for Wayfinding of Blind Walkers](https://ieeexplore.ieee.org/document/7060731), *IEEE Transactions on Haptics (ToH)*, 2015
 - [A SLAM Based Semantic Indoor Navigation System for Visually Impaired Users](https://ieeexplore.ieee.org/document/7379390), *IEEE SMC*, 2015
@@ -115,7 +115,7 @@ Navigating, and Orienting the Visually Impaired`
 - [Mixture reality-based assistive system for visually impaired people](https://www.sciencedirect.com/science/article/pii/S0141938223000823), *Displays*, 2023
 - [Viiat-Hand: A Reach-and-Grasp Restoration System Integrating Voice Interaction, Computer Vision, Auditory and Tactile Feedback for Non-Sighted Amputees](https://arxiv.org/abs/2308.06891), *IEEE RA-L*, 2023
 
-### Wearables crossed with Augmented White Canes
+### Wearables mixed with (Augmented) White Canes
 - [A Navigation Aid for Blind People](https://doi.org/10.1007/s10846-011-9555-7), *Journal of Intelligent {\&} Robotic Systems*, 2011
 - [An indoor navigation aid for the visually impaired](https://doi.org/10.1109/ROBIO.2016.7866366), *IEEE International Conference on Robotics and Biomimetics (ROBIO)*, 2016
 - [CCNY Smart Cane](https://doi.org/10.1109/CYBER.2017.8446303), *IEEE International Conference on CYBER Technology in Automation, Control, and Intelligent Systems (CYBER)*, 2017
@@ -123,7 +123,7 @@ Navigating, and Orienting the Visually Impaired`
 - [Navigation for the Vision Impaired with Spatial Audio and Ultrasonic Obstacle Sensors](), *Springer Computational Intelligence in Information Systems*, 2021
 - [Design of a Navigation System for the Blind/Visually Impaired](), *Springer Forthcoming Networks and Sustainability in the IoT Era*, 2021
 
-### Wearables crossed with Robot Systemss
+### Wearables mixed with Robot Systemss
 - [Electrocutaneous Communication in a Guide Dog Robot (MELDOG)](https://doi.org/10.1109/TBME.1985.325561), *IEEE Transactions on Biomedical Engineering (TBME)*, 1985
 - [The design and implementation of a walking assistant system with vibrotactile indication and voice prompt for the visually impaired](https://doi.org/10.1109/ROBIO.2013.6739885), *IEEE International Conference on Robotics and Biomimetics (ROBIO)*, 2013
 - [Hierarchical and Safe Motion Control for Cooperative Locomotion of Robotic Guide Dogs and Humans: A Hybrid Systems Approach](https://doi.org/10.1109/LRA.2019.2939719), *IEEE RA-L*, 2020
@@ -131,7 +131,7 @@ Navigating, and Orienting the Visually Impaired`
 - [Running Guidance for Visually Impaired People Using Sensory Augmentation Technology Based Robotic System](https://doi.org/10.1109/LRA.2023.3294718), *IEEE RA-L*, 2023
 - [The Aerial Guide Dog: A Low-Cognitive-Load Indoor Electronic Travel Aid for Visually Impaired Individuals](https://www.mdpi.com/1424-8220/24/1/297), *MDPI Sensors*, 2024
   
-### Wearables crossed with Phones or Handhelds
+### Wearables mixed with Phones or Handhelds
 - [SWAN: System for Wearable Audio Navigation](https://doi.org/10.1109/ISWC.2007.4373786), *IEEE International Symposium on Wearable Computers*, 2007
 - [ARGUS Autonomous Navigation System for People with Visual Impairments](), *Springer Computers Helping People with Special Needs*, 2014
 - [Sound- and Touch-Based Smart Cane: Better Walking Experience for Visually Challenged](), *Intelligent Computing, Communication and Devices*, 2015
