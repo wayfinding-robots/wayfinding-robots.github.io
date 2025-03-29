@@ -14,7 +14,7 @@ Navigating, and Orienting the Visually Impaired`
 - [The NavBelt—a computerized travel aid for the blind based on mobile robotics technology](https://doi.org/10.1109/10.725334), *IEEE Transactions on Biomedical Engineering (TBME)*, 1998
 - [Navigation System for the Blind: Auditory Display Modes and Guidance](https://ieeexplore.ieee.org/document/6788010), *IEEE Presence*, 1998
 - [Tactile wayfinder: a non-visual support system for wayfinding](https://doi.org/10.1145/1463160.1463179), *ACM Nordic Conference on Human-Computer Interaction (NordiCHI)*, 2008
-- [Outdoor/Indoor Vision-Based Localization for Blind Pedestrian Navigation Assistance](https://doi.org/10.1142/S0219467810003937), International Journal of Image and Graphics, 2010
+- [Outdoor/Indoor Vision-Based Localization for Blind Pedestrian Navigation Assistance](https://doi.org/10.1142/S0219467810003937), *International Journal of Image and Graphics*, 2010
 - [Robot vision for the visually impaired](https://ieeexplore.ieee.org/abstract/document/5543579), *IEEE/CVF CVPR Workshops*, 2010
 - [Wearable Navigation System for the Visually Impaired and Blind People](https://dl.acm.org/doi/abs/10.1109/ICIS.2012.118) *IEEE/ACIS International Conference on Computer and Information Science (ICIS)*, 2012
 - [Toward a computer vision-based wayfinding aid for blind persons to access unfamiliar indoor environments](https://doi.org/10.1007/s00138-012-0431-7), *Springer Machine Vision and Applications*, 2013
@@ -27,7 +27,7 @@ Navigating, and Orienting the Visually Impaired`
 - [ISANA: Wearable Context-Aware Indoor Assistive Navigation with Obstacle Avoidance for the Blind](https://link.springer.com/chapter/10.1007/978-3-319-48881-3_31), *ECCV Workshops*, 2016
 - [Enabling independent navigation for visually impaired people through a wearable vision-based feedback system](https://doi.org/10.1109/ICRA.2017.7989772), *IEEE ICRA*, 2017
 - [An Outdoor Navigation System for Blind Pedestrians Using GPS and Tactile-Foot Feedback](https://www.mdpi.com/2076-3417/8/4/578), *MDPI Applied Sciences*, 2018
-- [TactiBelt: Integrating Spatial Cognition and Mobility Theories into the Design of a Novel Orientation and Mobility Assistive Device for the Blind](https://link.springer.com/chapter/10.1007/978-3-319-94274-2_16), Springer International Conference on Computers Helping People with Special Needs (ICCHP), 2018
+- [TactiBelt: Integrating Spatial Cognition and Mobility Theories into the Design of a Novel Orientation and Mobility Assistive Device for the Blind](https://link.springer.com/chapter/10.1007/978-3-319-94274-2_16), *Springer International Conference on Computers Helping People with Special Needs (ICCHP)*, 2018
 - [Safe Local Navigation for Visually Impaired Users With a Time-of-Flight and Haptic Feedback Device](https://doi.org/10.1109/TNSRE.2018.2800665), *IEEE Transactions on Neural Systems and Rehabilitation Engineering (TNSRE)*, 2018
 - [Mechatronic System to Help Visually Impaired Users During Walking and Running](https://doi.org/10.1109/TITS.2017.2780621), *IEEE Transactions on Intelligent Transportation Systems*, 2018
 - [Intersection Perception Through Real-Time Semantic Segmentation to Assist Navigation of Visually Impaired Pedestrians](https://doi.org/10.1109/ROBIO.2018.8665211), *IEEE International Conference on Robotics and Biomimetics (ROBIO)*, 2018
@@ -44,7 +44,7 @@ Navigating, and Orienting the Visually Impaired`
 ### Wearables crossed with Augmented White Canes
 - [A Navigation Aid for Blind People](https://doi.org/10.1007/s10846-011-9555-7), *Journal of Intelligent {\&} Robotic Systems*, 2011
 - [An indoor navigation aid for the visually impaired](https://doi.org/10.1109/ROBIO.2016.7866366), *IEEE International Conference on Robotics and Biomimetics (ROBIO)*, 2016
-- [CCNY Smart Cane](https://doi.org/10.1109/CYBER.2017.8446303), *IEEE Annual International Conference on CYBER Technology in Automation, Control, and Intelligent Systems (CYBER)*, 2017
+- [CCNY Smart Cane](https://doi.org/10.1109/CYBER.2017.8446303), *IEEE International Conference on CYBER Technology in Automation, Control, and Intelligent Systems (CYBER)*, 2017
 - [An AI Edge Computing Based Wearable Assistive Device for Visually Impaired People Zebra-Crossing Walking](https://doi.org/10.1109/ICCE46568.2020.9043132), *IEEE International Conference on Consumer Electronics (ICCE)*, 2020
 - [Navigation for the Vision Impaired with Spatial Audio and Ultrasonic Obstacle Sensors](), *Springer Computational Intelligence in Information Systems*, 2021
 - [Design of a Navigation System for the Blind/Visually Impaired](), *Springer Forthcoming Networks and Sustainability in the IoT Era*, 2021
