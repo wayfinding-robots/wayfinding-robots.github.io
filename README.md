@@ -5,7 +5,7 @@ The purpose of this website is twofold. Specifically, for:
 Navigating, and Orienting the Visually Impaired`
 2) tracking both historical and contemporary advances in the fields of robotic wayfinding for people with visual impairments, low vision, and/or blindness (PwVI), including quadrupeds, wearables (e.g., headsets, AR glases, haptic belts), augmented canes, wheeled robots, ball bots, and more.
 
-# Systems
+# Systems by high level groupings
 
 ## Conventional Robot Systems
 
@@ -140,3 +140,96 @@ Navigating, and Orienting the Visually Impaired`
 - [A Single Camera based Localization and Navigation Assistance for The Visually Impaired in Indoor Environments](http://rave.ohiolink.edu/etdc/view?acc_num=osu154593040067708), *MS Thesis*, 2019
 - [UNav: An Infrastructure-Independent Vision-Based Navigation System for People with Blindness and Low Vision](https://www.mdpi.com/1424-8220/22/22/8894), *MDPI Sensors*, 2022
 - [Prototyping of a walking assistance system for visually impaired people using AI and LiDAR](https://doi.org/10.1145/3629296.3629364), *ACM International Conference on Education Technology and Computers*, 2024
+
+# Detaild Device Type Breakdown
+
+## Robot Systems
+
+### Wheeled
+- [The development of assisted- visually impaired people robot in the indoor environment based on deep learning](https://doi.org/10.1007/s11042-023-15644-y), *Multimedia Tools and Applications*, 2024
+- [DRAGON: A Dialogue-Based Robot for Assistive Navigation With Visual Language Grounding](https://doi.org/10.1109/LRA.2024.3362591), *IEEE Robotics and Automation Letters (RA-L)*, 2024
+- [Robot-Assisted Navigation for Visually Impaired through Adaptive Impedance and Path Planning](https://arxiv.org/abs/2310.14705), *arXiv*, 2023
+- [PathFinder: Designing a Map-less Navigation System for Blind People in Unfamiliar Buildings](https://doi.org/10.1145/3544548.3580687), *ACM CHI Conference on Human Factors in Computing Systems*, 2023
+- [Take My Hand: Automated Hand-Based Spatial Guidance for the Visually Impaired](https://doi.org/10.1145/3544548.3581415), *ACM CHI Conference on Human Factors in Computing Systems*, 2023
+- [Enhancing Blind Visitor’s Autonomy in a Science Museum Using an Autonomous Navigation Robot](https://doi.org/10.1145/3544548.3581220), *ACM CHI Conference on Human Factors in Computing Systems*, 2023
+- [Can Quadruped Navigation Robots be Used as Guide Dogs?](https://arxiv.org/abs/2210.08727), *arXiv*, 2023
+- [Exploring Levels of Control for a Navigation Assistant for Blind Travelers](https://doi.org/10.1145/3568162.3578630), *ACM/IEEE International Conference on Human-Robot Interaction (HRI)*, 2023
+- [Research on Design and Motion Control of a Considerate Guide Mobile Robot for Visually Impaired People](https://doi.org/10.1109/ACCESS.2023.3288152), *IEEE Access*, 2023
+- [Designing a Wayfinding Robot for People with Visual Impairments](https://arxiv.org/abs/2302.09144), *Workshop on Intelligent Control Methods and Machine Learning Algorithms for Human-Robot Interaction and Assistive Robotics (HRI)*, 2023
+- [I am the follower, also the boss": Exploring Different Levels of Autonomy and Machine Forms of Guiding Robots for the Visually Impaired](https://doi.org/10.1145/3544548.3580884), *ACM CHI Conference on Human Factors in Computing Systems*, 2023
+- [Voice Expression System of Visual Environment for a Guide Dog Robot](https://doi.org/10.1109/ISSSR56778.2022.00041), *IEEE International Symposium on System Security, Safety, and Reliability (ISSSR)*, 2022
+- [Design of a “Cobot Tactile Display” for Accessing Virtual Diagrams by Blind and Visually Impaired Users](https://www.mdpi.com/1424-8220/22/12/4468), *MDPI Sensors*, 2022
+- [Sample-Efficient Training of Robotic Guide Using Human Path Prediction Network](https://doi.org/10.1109/ACCESS.2022.3210932), *IEEE Access*, 2022
+- [Walker - An Autonomous, Interactive Walking Aid](https://doi.org/10.1145/3441852.3476552), *International ACM SIGACCESS Conference on Computers and Accessibility*, 2021
+- [Assistive Robot For Visually Impaired People](https://dx.doi.org/10.1088/1742-6596/2089/1/012056), *Journal of Physics: Conference Series*, 2021
+- [NavDog: robotic navigation guide dog via model predictive control and human-robot modeling](https://doi.org/10.1145/3412841.3442098), *ACM Symposium on Applied Computing*, 2021
+- [Assistive Navigation Using Deep Reinforcement Learning Guiding Robot With UWB/Voice Beacons and Semantic Feedbacks for Blind and Visually Impaired People](https://www.frontiersin.org/articles/10.3389/frobt.2021.654132), *Frontiers in Robotics and AI*, 2021
+- [SRAVIP: Smart Robot Assistant for Visually Impaired Persons](http://dx.doi.org/10.14569/IJACSA.2021.0120739), *International Journal of Advanced Computer Science and Applications*, 2021
+- [BlindPilot: A Robotic Local Navigation System that Leads Blind People to a Landmark Object](https://doi.org/10.1145/3334480.3382925), *ACM Extended Abstracts of the CHI Conference on Human Factors in Computing Systems*, 2020
+- [An Edge Computing Platform of Guide-dog Robot for Visually Impaired](https://doi.org/10.1109/ISADS45777.2019.9155620), *IEEE International Symposium on Autonomous Decentralized System (ISADS)*, 2019
+- [Development of a Mobile Robot: Robotic Guide Dog for Aid of Visual Disabilities in Urban Environments](https://doi.org/10.1109/LARS-SBR-WRE48964.2019.00026), *IEEE Latin American Robotics Symposium (LARS), Brazilian Symposium on Robotics (SBR) and Workshop on Robotics in Education (WRE)*, 2019
+- [BBeep: A Sonic Collision Avoidance System for Blind Travellers and Nearby Pedestrians](https://doi.org/10.1145/3290605.3300282), *ACM CHI Conference on Human Factors in Computing Systems*, 2019
+- [A Depth-Enhanced Visual Intertial Odometry for a Robotic Navigation Aid for Blind People](), *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) Workshop on Visual-Inertial Navigation: Challenges and Applications*, 2019
+- [Human-Robot Interaction for Assisted Wayfinding of a Robotic Navigation Aid for the Blind](https://doi.org/10.1109/HSI47298.2019.8942612), *IEEE International Conference on Human System Interaction (HSI)*, 2019
+- [Toward A Ballbot for Physically Leading People: A Human-Centered Approach](https://doi.org/10.1109/IROS40897.2019.8968546), *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2019
+- [Follow The Robot: Modeling Coupled Human-Robot Dyads During Navigation](https://doi.org/10.1109/IROS40897.2019.8967656), *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2019
+- [CaBot: Designing and Evaluating an Autonomous Navigation Robot for Blind People](https://doi.org/10.1145/3308561.3353771), *International ACM SIGACCESS Conference on Computers and Accessibility*, 2019
+- [Robot-Assisted Navigation for a Robotic Walker with Aided User Intent](https://doi.org/10.1109/ROMAN.2018.8525674), *IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN)*, 2018
+- [Deep Trail-Following Robotic Guide Dog in Pedestrian Environments for People who are Blind and Visually Impaired - Learning from Virtual and Real Worlds](https://doi.org/10.1109/ICRA.2018.8460994), *IEEE International Conference on Robotics and Automation (ICRA)*, 2018
+- [Robotic assistance in indoor navigation for people who are blind](https://doi.org/10.1109/HRI.2016.7451806), *ACM/IEEE International Conference on Human-Robot Interaction (HRI)*, 2016
+- [Co-Robotic Cane: A New Robotic Navigation Aid for the Visually Impaired](https://doi.org/10.1109/MSMC.2015.2501167), *IEEE Systems, Man, and Cybernetics Magazine (SMC)*, 2016
+- [To the Bookstore! Autonomous Wheelchair Navigation in an Urban Environment](https://doi.org/10.1007/978-3-642-40686-7_17), *Springer Field and Service Robotics: Results of the International Conference*, 2014
+- [A Co-Robotic Cane for blind navigation](https://doi.org/10.1109/SMC.2014.6974058), *IEEE International Conference on Systems, Man, and Cybernetics (SMC)*, 2014
+- [Smart rope and vision based guide-dog robot system for the visually impaired self-walking in urban system](https://doi.org/10.1109/AIM.2013.6584174), *IEEE/ASME International Conference on Advanced Intelligent Mechatronics*, 2013
+- [Development of a guide-dog robot system for the visually impaired by using fuzzy logic based human-robot interaction approach](https://doi.org/10.1109/ICCAS.2013.6703877), *IEEE International Conference on Control, Automation and Systems (ICCAS 2013)*, 2013
+- [Development of a new robotic system for assisting and guiding visually impaired people](https://doi.org/10.1109/ROBIO.2012.6490971), *IEEE International Conference on Robotics and Biomimetics (ROBIO)*, 2012
+- [Driving backwards using a semi-autonomous smart wheelchair system DSS: A clinical evaluation](), *Appl. Bionics Biomechanics*, 2012
+- [eyeDog: an assistive-guide robot for the visually impaired](https://doi.org/10.1145/2141622.2141691), *ACM International Conference on PErvasive Technologies Related to Assistive Environments*, 2011
+- [Clinical evaluation of Guido robotic walker](https://pubmed.ncbi.nlm.nih.gov/19319753/), *J. Rehabil. Res. Dev.*, 2008
+- [Robot-assisted shopping for the blind: issues in spatial cognition and product selection](https://doi.org/10.1007/s11370-008-0020-9), *Intelligent Service Robotics*, 2008
+- [Robot-assisted wayfinding for the visually impaired in structured indoor environments](https://doi.org/10.1007/s10514-006-7223-8), *Autonomous Robots*, 2006
+- [Ergonomics-for-one in a robotic shopping cart for the blind](https://doi.org/10.1145/1121241.1121267), *ACM SIGCHI/SIGART Conference on Human-Robot Interaction (HRI)*, 2006
+- [RoboCart: toward robot-assisted navigation of grocery stores by the visually impaired](https://doi.org/10.1109/IROS.2005.1545107), *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2005
+- [RFID in robot-assisted indoor navigation for the visually impaired](https://doi.org/10.1109/IROS.2004.1389688), *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (IEEE Cat. No.04CH37566)*, 2004
+- [A robotic wayfinding system for the visually impaired](), *Conference on Innovative Applications of Artifical Intelligence*, 2004
+- [Multiobjective Navigation of a Guide Mobile Robot for the Visually Impaired Based on Intention Inference of Obstacles](https://doi.org/10.1023/A:1008990105090), *Autonomous Robots*, 2001
+- [Electrocutaneous Communication in a Guide Dog Robot (MELDOG)](https://doi.org/10.1109/TBME.1985.325561), *IEEE Transactions on Biomedical Engineering (TBME)*, 1985
+
+### Legged
+- [Force-Estimation Based Interaction of Legged Robots through Whole-Body Dynamics](), *Intelligent Robotics and Applications*, 2023
+- [Seeing-Eye Quadruped Navigation with Force Responsive Locomotion Control](https://proceedings.mlr.press/v229/defazio23a.html), *Conference on Robot Learning*, 2023
+- [A Walk in the Park With Robodog: Navigating Around Pedestrians Using a Spot Robot as a “Guide Dog”]( https://doi.org/10.1177/12063312231159215 ), *Space and Culture*, 2023
+- [System Configuration and Navigation of a Guide Dog Robot: Toward Animal Guide Dog-Level Guiding Work](https://doi.org/10.1109/ICRA48891.2023.10160573), *IEEE International Conference on Robotics and Automation (ICRA)*, 2023
+- [Can Quadruped Navigation Robots be Used as Guide Dogs?](https://arxiv.org/abs/2210.08727), *arXiv*, 2023
+- [Quadruped Guidance Robot for the Visually Impaired: A Comfort-Based Approach](https://doi.org/10.1109/ICRA48891.2023.10160854), *IEEE International Conference on Robotics and Automation (ICRA)*, 2023
+- [How to Train Your Guide Dog: Wayfinding and Safe Navigation with Human-Robot Modeling](https://doi.org/10.1145/3568294.3580076), *Companion of the ACM/IEEE International Conference on Human-Robot Interaction (HRI)*, 2023
+- [Transforming a Quadruped into a Guide Robot for the Visually Impaired: Formalizing Wayfinding, Interaction Modeling, and Safety Mechanism](https://proceedings.mlr.press/v229/kim23c.html), *Conference on Robot Learning*, 2023
+- [AI Quadruped Robot Assistant for the Visually Impaired](https://doi.org/10.1109/IECON48115.2021.9589508), *IECON – Conference of the IEEE Industrial Electronics Society*, 2021
+- [Quadrupedal Robotic Guide Dog with Vocal Human-Robot Interaction](https://arxiv.org/abs/2111.03718), *arXiv*, 2021
+- [Robotic Guide Dog: Leading a Human with Leash-Guided Hybrid Physical Interaction](https://doi.org/10.1109/ICRA48506.2021.9561786), *IEEE International Conference on Robotics and Automation (ICRA)*, 2021
+- [Hierarchical and Safe Motion Control for Cooperative Locomotion of Robotic Guide Dogs and Humans: A Hybrid Systems Approach](https://doi.org/10.1109/LRA.2019.2939719), *IEEE Robotics and Automation Letters (RA-L)*, 2020
+
+### Walker 
+- [Walker - An Autonomous, Interactive Walking Aid](https://doi.org/10.1145/3441852.3476552), *International ACM SIGACCESS Conference on Computers and Accessibility*, 2021
+- [Assistive locomotion device with haptic feedback for guiding visually impaired people](https://www.sciencedirect.com/science/article/pii/S1350453320300515), *Medical Engineering \& Physics*, 2020
+- [Robot-Assisted Navigation for a Robotic Walker with Aided User Intent](https://doi.org/10.1109/ROMAN.2018.8525674), *IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN)*, 2018
+- [Navigating blind people with a smart walker](https://doi.org/10.1109/IROS.2015.7354233), *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2015
+- [To the Bookstore! Autonomous Wheelchair Navigation in an Urban Environment](https://doi.org/10.1007/978-3-642-40686-7_17), *Springer Field and Service Robotics: Results of the International Conference*, 2014
+- [The design and implementation of a walking assistant system with vibrotactile indication and voice prompt for the visually impaired](https://doi.org/10.1109/ROBIO.2013.6739885), *IEEE International Conference on Robotics and Biomimetics (ROBIO)*, 2013
+- [Development of a new robotic system for assisting and guiding visually impaired people](https://doi.org/10.1109/ROBIO.2012.6490971), *IEEE International Conference on Robotics and Biomimetics (ROBIO)*, 2012
+- [Driving backwards using a semi-autonomous smart wheelchair system DSS: A clinical evaluation](), *Appl. Bionics Biomechanics*, 2012
+  
+### Manipulator Arm
+- [Robot-Assisted Navigation for Visually Impaired through Adaptive Impedance and Path Planning](https://arxiv.org/abs/2310.14705), *arXiv*, 2023
+- [Go That Way: Exploring Supplementary Physical Movements by a Stationary Robot When Providing Navigation Instructions](https://doi.org/10.1145/3308561.3353805), *International ACM SIGACCESS Conference on Computers and Accessibility*, 2019
+- [Using Robot Manipulation to Assist Navigation by People Who Are Blind or Low Vision](https://doi.org/10.1145/3029798.3034808), *Companion of the ACM/IEEE International Conference on Human-Robot Interaction (HRI)*, 2017
+- [NavCue: Context immersive navigation assistance for blind travelers](https://doi.org/10.1109/HRI.2016.7451855), *ACM/IEEE International Conference on Human-Robot Interaction (HRI)*, 2016
+  
+### Drone
+- [The Aerial Guide Dog: A Low-Cognitive-Load Indoor Electronic Travel Aid for Visually Impaired Individuals](https://www.mdpi.com/1424-8220/24/1/297), *MDPI Sensors*, 2024
+- [Running Guidance for Visually Impaired People Using Sensory Augmentation Technology Based Robotic System](https://doi.org/10.1109/LRA.2023.3294718), *IEEE Robotics and Automation Letters (RA-L)*, 2023
+- [Robotic Guidance System for Visually Impaired Users Running Outdoors Using Haptic Feedback](https://doi.org/10.1109/IROS51168.2021.9636567), *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2021
+- [Flying Guide Dog: Walkable Path Discovery for the Visually Impaired Utilizing Drones and Transformer-based Semantic Segmentation](https://doi.org/10.1109/ROBIO54168.2021.9739520), *IEEE International Conference on Robotics and Biomimetics (ROBIO)*, 2021
+- [DroneNavigator: Using Leashed and Free-Floating Quadcopters to Navigate Visually Impaired Travelers](https://doi.org/10.1145/3132525.3132556), *International ACM SIGACCESS Conference on Computers and Accessibility*, 2017
+
+##
