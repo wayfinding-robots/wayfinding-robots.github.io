@@ -343,10 +343,83 @@ Navigating, and Orienting the Visually Impaired`
 - [Tactile wayfinder: a non-visual support system for wayfinding](https://doi.org/10.1145/1463160.1463179), *ACM Nordic Conference on Human-Computer Interaction: Building Bridges*, 2008
 - [Electrocutaneous Communication in a Guide Dog Robot (MELDOG)](https://doi.org/10.1109/TBME.1985.325561), *IEEE Transactions on Biomedical Engineering (TBME)*, 1985
 
-### Wait -- Attached to belt
+### Waist -- Attached to belt
 - [The Aerial Guide Dog: A Low-Cognitive-Load Indoor Electronic Travel Aid for Visually Impaired Individuals](https://www.mdpi.com/1424-8220/24/1/297), *MDPI Sensors*, 2024
 - [An Outdoor Navigation System for Blind Pedestrians Using GPS and Tactile-Foot Feedback](https://www.mdpi.com/2076-3417/8/4/578), *MDPI Applied Sciences*, 2018
 - [ARGUS Autonomous Navigation System for People with Visual Impairments](), *Springer Computers Helping People with Special Needs*, 2014
 - [A Navigation Aid for Blind People](https://doi.org/10.1007/s10846-011-9555-7), *Journal of Intelligent {\&} Robotic Systems*, 2011
 
 
+## Augmented White Cane Breakdown
+
+### Cameras -- Monocular
+- [ANAVI: Advanced Navigation Assistance for Visually Impaired](), *Springer Intelligent Computing and Applications*, 2021
+- [Design of a Navigation System for the Blind/Visually Impaired](), *Springer Forthcoming Networks and Sustainability in the IoT Era*, 2021
+- [Multimodal sensing and intuitive steering assistance improve navigation and mobility for people with impaired vision](https://www.science.org/doi/abs/10.1126/scirobotics.abg6594), *Science Robotics*, 2021
+- [An AI Edge Computing Based Wearable Assistive Device for Visually Impaired People Zebra-Crossing Walking](https://doi.org/10.1109/ICCE46568.2020.9043132), *IEEE International Conference on Consumer Electronics (ICCE)*, 2020
+- [A Single Camera based Localization and Navigation Assistance for The Visually Impaired in Indoor Environments](http://rave.ohiolink.edu/etdc/view?acc_num=osu154593040067708), *MS Thesis*, 2019
+- [CCNY Smart Cane](https://doi.org/10.1109/CYBER.2017.8446303), *IEEE International Conference on CYBER Technology in Automation, Control, and Intelligent Systems (CYBER)*, 2017
+- [Co-Robotic Cane: A New Robotic Navigation Aid for the Visually Impaired](https://doi.org/10.1109/MSMC.2015.2501167), *IEEE Systems, Man, and Cybernetics Magazine (SMC)*, 2016
+- [A Co-Robotic Cane for blind navigation](https://doi.org/10.1109/SMC.2014.6974058), *IEEE International Conference on Systems, Man, and Cybernetics (SMC)*, 2014
+
+### Cameras -- Time-of-Flight / 3D
+- [An Indoor Wayfinding System Based on Geometric Features Aided Graph SLAM for the Visually Impaired](https://doi.org/10.1109/TNSRE.2017.2682265), *IEEE Transactions on Neural Systems and Rehabilitation Engineering (TNSRE)*, 2017
+- [An indoor navigation aid for the visually impaired](https://doi.org/10.1109/ROBIO.2016.7866366), *IEEE International Conference on Robotics and Biomimetics (ROBIO)*, 2016
+- [Co-Robotic Cane: A New Robotic Navigation Aid for the Visually Impaired](https://doi.org/10.1109/MSMC.2015.2501167), *IEEE Systems, Man, and Cybernetics Magazine (SMC)*, 2016
+- [A Co-Robotic Cane for blind navigation](https://doi.org/10.1109/SMC.2014.6974058), *IEEE International Conference on Systems, Man, and Cybernetics (SMC)*, 2014
+
+### Cameras -- Stereo / RGB-D
+- [ShelfHelp: Empowering Humans to Perform Vision-Independent Manipulation Tasks with a Socially Assistive Robotic Cane](), *International Conference on Autonomous Agents and Multiagent Systems*, 2023
+- [Assistive Robotics for Empowering Humans with Visual Impairments to Independently Perform Day-to-day Tasks](), *International Conference on Autonomous Agents and Multiagent Systems*, 2023
+- [A Novel Perceptive Robotic Cane with Haptic Navigation for Enabling Vision-Independent Participation in the Social Dynamics of Seat Choice](https://doi.org/10.1109/IROS47612.2022.9981219), *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2022
+- [A Depth-Enhanced Visual Intertial Odometry for a Robotic Navigation Aid for Blind People](), *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) Workshop on Visual-Inertial Navigation: Challenges and Applications*, 2019
+- [Human-Robot Interaction for Assisted Wayfinding of a Robotic Navigation Aid for the Blind](https://doi.org/10.1109/HSI47298.2019.8942612), *IEEE International Conference on Human System Interaction (HSI)*, 2019
+
+### Cameras -- Tracking
+- [ShelfHelp: Empowering Humans to Perform Vision-Independent Manipulation Tasks with a Socially Assistive Robotic Cane](), *International Conference on Autonomous Agents and Multiagent Systems*, 2023
+- [Assistive Robotics for Empowering Humans with Visual Impairments to Independently Perform Day-to-day Tasks](), *International Conference on Autonomous Agents and Multiagent Systems*, 2023
+- [A Novel Perceptive Robotic Cane with Haptic Navigation for Enabling Vision-Independent Participation in the Social Dynamics of Seat Choice](https://doi.org/10.1109/IROS47612.2022.9981219), *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2022
+
+### Ranging -- (ultra)-sonic 
+- [ANAVI: Advanced Navigation Assistance for Visually Impaired](), *Springer Intelligent Computing and Applications*, 2021
+- [Design of a Navigation System for the Blind/Visually Impaired](), *Springer Forthcoming Networks and Sustainability in the IoT Era*, 2021
+- [Navigation for the Vision Impaired with Spatial Audio and Ultrasonic Obstacle Sensors](), *Springer Computational Intelligence in Information Systems*, 2021
+- [Intelligent Mobility Cane - Lessons Learned from Evaluation of Obstacle Notification System using a Haptic Approach](https://doi.org/10.1145/3334480.3375217), *ACM Extended Abstracts of the CHI Conference on Human Factors in Computing Systems*, 2020
+- [Advanced Augmented White Cane with obstacle height and distance feedback](https://doi.org/10.1109/ICORR.2013.6650358), *IEEE International Conference on Rehabilitation Robotics (ICORR)*, 2013
+- [Way-finding Electronic Bracelet for visually impaired people](https://doi.org/10.1109/PHT.2013.6461334), *IEEE Point-of-Care Healthcare Technologies (PHT)*, 2013
+- [Smart Cane: Assistive Cane for Visually-impaired People](https://arxiv.org/abs/1110.5156), *arXiv*, 2011
+- [A Navigation Aid for Blind People](https://doi.org/10.1007/s10846-011-9555-7), *Journal of Intelligent {\&} Robotic Systems*, 2011
+- [Augmented white cane with multimodal haptic feedback](https://doi.org/10.1109/BIOROB.2010.5628066), *IEEE RAS \& EMBS International Conference on Biomedical Robotics and Biomechatronics*, 2010
+- [The GuideCane-applying mobile robot technologies to assist the visually impaired](https://doi.org/10.1109/3468.911370), *IEEE Transactions on Systems, Man, and Cybernetics - Part A: Systems and Humans (SMC)*, 2001
+  
+### Ranging -- Infrared
+- [An AI Edge Computing Based Wearable Assistive Device for Visually Impaired People Zebra-Crossing Walking](https://doi.org/10.1109/ICCE46568.2020.9043132), *IEEE International Conference on Consumer Electronics (ICCE)*, 2020
+- [Advanced Augmented White Cane with obstacle height and distance feedback](https://doi.org/10.1109/ICORR.2013.6650358), *IEEE International Conference on Rehabilitation Robotics (ICORR)*, 2013
+- [Augmented white cane with multimodal haptic feedback](https://doi.org/10.1109/BIOROB.2010.5628066), *IEEE RAS \& EMBS International Conference on Biomedical Robotics and Biomechatronics*, 2010
+  
+### Ranging -- LiDAR
+- [Multimodal sensing and intuitive steering assistance improve navigation and mobility for people with impaired vision](https://www.science.org/doi/abs/10.1126/scirobotics.abg6594), *Science Robotics*, 2021
+- [Embedded Multisensor System for Safe Point-to-Point Navigation of Impaired Users](https://doi.org/10.1109/TITS.2015.2489261), *IEEE Transactions on Intelligent Transportation Systems*, 2015
+
+### Wheel-like / encoder-tip
+
+### IMU
+- [ShelfHelp: Empowering Humans to Perform Vision-Independent Manipulation Tasks with a Socially Assistive Robotic Cane](), *International Conference on Autonomous Agents and Multiagent Systems*, 2023
+- [A Novel Perceptive Robotic Cane with Haptic Navigation for Enabling Vision-Independent Participation in the Social Dynamics of Seat Choice](https://doi.org/10.1109/IROS47612.2022.9981219), *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2022
+- [Multimodal sensing and intuitive steering assistance improve navigation and mobility for people with impaired vision](https://www.science.org/doi/abs/10.1126/scirobotics.abg6594), *Science Robotics*, 2021
+- [A Single Camera based Localization and Navigation Assistance for The Visually Impaired in Indoor Environments](http://rave.ohiolink.edu/etdc/view?acc_num=osu154593040067708), *MS Thesis*, 2019
+- [Human-Robot Interaction for Assisted Wayfinding of a Robotic Navigation Aid for the Blind](https://doi.org/10.1109/HSI47298.2019.8942612), *IEEE International Conference on Human System Interaction (HSI)*, 2019
+- [CCNY Smart Cane](https://doi.org/10.1109/CYBER.2017.8446303), *IEEE International Conference on CYBER Technology in Automation, Control, and Intelligent Systems (CYBER)*, 2017
+- [Embedded Multisensor System for Safe Point-to-Point Navigation of Impaired Users](https://doi.org/10.1109/TITS.2015.2489261), *IEEE Transactions on Intelligent Transportation Systems*, 2015
+- [Augmented white cane with multimodal haptic feedback](https://doi.org/10.1109/BIOROB.2010.5628066), *IEEE RAS \& EMBS International Conference on Biomedical Robotics and Biomechatronics*, 2010
+  
+### GPS
+- [I am the follower, also the boss": Exploring Different Levels of Autonomy and Machine Forms of Guiding Robots for the Visually Impaired](https://doi.org/10.1145/3544548.3580884), *ACM CHI Conference on Human Factors in Computing Systems*, 2023
+- [Design of a Navigation System for the Blind/Visually Impaired](), *Springer Forthcoming Networks and Sustainability in the IoT Era*, 2021
+- [Multimodal sensing and intuitive steering assistance improve navigation and mobility for people with impaired vision](https://www.science.org/doi/abs/10.1126/scirobotics.abg6594), *Science Robotics*, 2021
+- [An AI Edge Computing Based Wearable Assistive Device for Visually Impaired People Zebra-Crossing Walking](https://doi.org/10.1109/ICCE46568.2020.9043132), *IEEE International Conference on Consumer Electronics (ICCE)*, 2020
+- [Mechanism and evaluation of a haptic interface “Force Blinker 2” for navigation of the visually impaired](https://doi.org/10.1109/IROS.2010.5651077), *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2010
+  
+### Force sensor
+- [I am the follower, also the boss": Exploring Different Levels of Autonomy and Machine Forms of Guiding Robots for the Visually Impaired](https://doi.org/10.1145/3544548.3580884), *ACM CHI Conference on Human Factors in Computing Systems*, 2023
+- [An AI Edge Computing Based Wearable Assistive Device for Visually Impaired People Zebra-Crossing Walking](https://doi.org/10.1109/ICCE46568.2020.9043132), *IEEE International Conference on Consumer Electronics (ICCE)*, 2020
