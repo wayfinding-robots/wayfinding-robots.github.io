@@ -143,7 +143,7 @@ Navigating, and Orienting the Visually Impaired`
 
 # Detaild Device Type Breakdown
 
-## Robot Systems
+## Robot Systems Breakdowns
 
 ### Wheeled
 - [The development of assisted- visually impaired people robot in the indoor environment based on deep learning](https://doi.org/10.1007/s11042-023-15644-y), *Multimedia Tools and Applications*, 2024
@@ -232,4 +232,99 @@ Navigating, and Orienting the Visually Impaired`
 - [Flying Guide Dog: Walkable Path Discovery for the Visually Impaired Utilizing Drones and Transformer-based Semantic Segmentation](https://doi.org/10.1109/ROBIO54168.2021.9739520), *IEEE International Conference on Robotics and Biomimetics (ROBIO)*, 2021
 - [DroneNavigator: Using Leashed and Free-Floating Quadcopters to Navigate Visually Impaired Travelers](https://doi.org/10.1145/3132525.3132556), *International ACM SIGACCESS Conference on Computers and Accessibility*, 2017
 
-##
+## Wearables Breakdown
+
+### Head -- Headset / earphones
+- [Prototyping of a walking assistance system for visually impaired people using AI and LiDAR](https://doi.org/10.1145/3629296.3629364), *ACM International Conference on Education Technology and Computers*, 2024
+- [Viia-hand: a Reach-and-grasp Restoration System Integrating Voice interaction, Computer vision and Auditory feedback for Blind Amputees](https://arxiv.org/abs/2308.06891), *arXiv*, 2023
+- [SNAVI: A Smart Navigation Assistant for Visually Impaired](), *Intelligent Control, Robotics, and Industrial Automation*, 2023
+- [UNav: An Infrastructure-Independent Vision-Based Navigation System for People with Blindness and Low Vision](https://www.mdpi.com/1424-8220/22/22/8894), *MDPI Sensors*, 2022
+- [Flying Guide Dog: Walkable Path Discovery for the Visually Impaired Utilizing Drones and Transformer-based Semantic Segmentation](https://doi.org/10.1109/ROBIO54168.2021.9739520), *IEEE International Conference on Robotics and Biomimetics (ROBIO)*, 2021
+- [Navigation for the Vision Impaired with Spatial Audio and Ultrasonic Obstacle Sensors](), *Springer Computational Intelligence in Information Systems*, 2021
+- [An assistive low-vision platform that augments spatial cognition through proprioceptive guidance: Point-to-Tell-and-Touch](https://doi.org/10.1109/IROS40897.2019.8967647), *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2019
+- [A Depth-Enhanced Visual Intertial Odometry for a Robotic Navigation Aid for Blind People](), *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) Workshop on Visual-Inertial Navigation: Challenges and Applications*, 2019
+- [Human-Robot Interaction for Assisted Wayfinding of a Robotic Navigation Aid for the Blind](https://doi.org/10.1109/HSI47298.2019.8942612), *IEEE International Conference on Human System Interaction (HSI)*, 2019
+- [CaBot: Designing and Evaluating an Autonomous Navigation Robot for Blind People](https://doi.org/10.1145/3308561.3353771), *International ACM SIGACCESS Conference on Computers and Accessibility*, 2019
+- [Intersection Perception Through Real-Time Semantic Segmentation to Assist Navigation of Visually Impaired Pedestrians](https://doi.org/10.1109/ROBIO.2018.8665211), *IEEE International Conference on Robotics and Biomimetics (ROBIO)*, 2018
+- [Blind wayfinding with physically-based liquid sounds](https://www.sciencedirect.com/science/article/pii/S1071581918300600), *International Journal of Human-Computer Studies*, 2018
+- [TactiBelt: Integrating Spatial Cognition and Mobility Theories into the Design of a Novel Orientation and Mobility Assistive Device for the Blind](), *Springer Computers Helping People with Special Needs*, 2018
+- [An Indoor Wayfinding System Based on Geometric Features Aided Graph SLAM for the Visually Impaired](https://doi.org/10.1109/TNSRE.2017.2682265), *IEEE Transactions on Neural Systems and Rehabilitation Engineering*, 2017
+- [An indoor navigation aid for the visually impaired](https://doi.org/10.1109/ROBIO.2016.7866366), *IEEE International Conference on Robotics and Biomimetics (ROBIO)*, 2016
+- [Navigation system for visually impaired people](https://doi.org/10.1109/ICCPEIC.2015.7259447), *IEEE International Conference on Computation of Power, Energy, Information and Communication (ICCPEIC)*, 2015
+- [Sound- and Touch-Based Smart Cane: Better Walking Experience for Visually Challenged](), *Intelligent Computing, Communication and Devices*, 2015
+- [ARGUS Autonomous Navigation System for People with Visual Impairments](), *Springer Computers Helping People with Special Needs*, 2014
+- [The design and implementation of a walking assistant system with vibrotactile indication and voice prompt for the visually impaired](https://doi.org/10.1109/ROBIO.2013.6739885), *IEEE International Conference on Robotics and Biomimetics (ROBIO)*, 2013
+- [Toward a computer vision-based wayfinding aid for blind persons to access unfamiliar indoor environments](https://doi.org/10.1007/s00138-012-0431-7), *Machine Vision and Applications*, 2013
+- [Development of a new robotic system for assisting and guiding visually impaired people](https://doi.org/10.1109/ROBIO.2012.6490971), *IEEE International Conference on Robotics and Biomimetics (ROBIO)*, 2012
+- [Wearable Navigation System for the Visually Impaired and Blind People](https://doi.org/10.1109/ICIS.2012.118), *IEEE/ACIS International Conference on Computer and Information Science*, 2012
+- [Robot vision for the visually impaired](https://doi.org/10.1109/CVPRW.2010.5543579), *IEEE Computer Society Conference on Computer Vision and Pattern Recognition - Workshops (CVPR)*, 2010
+- [Robot-assisted shopping for the blind: issues in spatial cognition and product selection](https://doi.org/10.1007/s11370-008-0020-9), *Intelligent Service Robotics*, 2008
+- [SWAN: System for Wearable Audio Navigation](https://doi.org/10.1109/ISWC.2007.4373786), *IEEE International Symposium on Wearable Computers*, 2007
+- [Ergonomics-for-one in a robotic shopping cart for the blind](https://doi.org/10.1145/1121241.1121267), *ACM SIGCHI/SIGART Conference on Human-Robot Interaction (HRI)*, 2006
+- [Navigation System for the Blind: Auditory Display Modes and Guidance](https://doi.org/10.1162/105474698565677), *Presence: Teleoperators and Virtual Environments*, 1998
+- [The NavBelt-a computerized travel aid for the blind based on mobile robotics technology](https://doi.org/10.1109/10.725334), *IEEE Transactions on Biomedical Engineering (TBME)*, 1998
+
+### Head -- Glasses (e.g., Google Glasses)
+- [Mixture reality-based assistive system for visually impaired people](https://www.sciencedirect.com/science/article/pii/S0141938223000823), *Displays*, 2023
+- [A Low Cost and Enhanced Assistive Environment for People with Vision Loss](), *Springer Advanced Computing and Intelligent Technologies*, 2022
+- [An AI Edge Computing Based Wearable Assistive Device for Visually Impaired People Zebra-Crossing Walking](https://doi.org/10.1109/ICCE46568.2020.9043132), *IEEE International Conference on Consumer Electronics (ICCE)*, 2020
+- [A Single Camera based Localization and Navigation Assistance for The Visually Impaired in Indoor Environments](http://rave.ohiolink.edu/etdc/view?acc_num=osu154593040067708), *MS Thesis*, 2019
+- [Enhanced Depth Navigation Through Augmented Reality Depth Mapping in Patients with Low Vision](https://doi.org/10.1038/s41598-019-47397-w), *Scientific Reports*, 2019
+- [Designing AR Visualizations to Facilitate Stair Navigation for People with Low Vision](https://doi.org/10.1145/3332165.3347906), *ACM Symposium on User Interface Software and Technology*, 2019
+- [Intersection Perception Through Real-Time Semantic Segmentation to Assist Navigation of Visually Impaired Pedestrians](https://doi.org/10.1109/ROBIO.2018.8665211), *IEEE International Conference on Robotics and Biomimetics (ROBIO)*, 2018
+- [TactiBelt: Integrating Spatial Cognition and Mobility Theories into the Design of a Novel Orientation and Mobility Assistive Device for the Blind](), *Springer Computers Helping People with Special Needs*, 2018
+- [Toward a computer vision-based wayfinding aid for blind persons to access unfamiliar indoor environments](https://doi.org/10.1007/s00138-012-0431-7), *Machine Vision and Applications*, 2013
+
+### Head -- Helmet / head-mounted
+- [Viia-hand: a Reach-and-grasp Restoration System Integrating Voice interaction, Computer vision and Auditory feedback for Blind Amputees](https://arxiv.org/abs/2308.06891), *arXiv*, 2023
+- [Design of a Navigation System for the Blind/Visually Impaired](), *Springer Forthcoming Networks and Sustainability in the IoT Era*, 2021
+- [Vision-Based System for Assisting Blind People to Wander Unknown Environments in a Safe Way](https://doi.org/10.1155/2021/6685686), *Journal of Sensors*, 2021
+- [Blind wayfinding with physically-based liquid sounds](https://www.sciencedirect.com/science/article/pii/S1071581918300600), *International Journal of Human-Computer Studies*, 2018
+- [A SLAM Based Semantic Indoor Navigation System for Visually Impaired Users](https://doi.org/10.1109/SMC.2015.258), *IEEE International Conference on Systems, Man, and Cybernetics (SMC)*, 2015
+- [Navigation system for visually impaired people](https://doi.org/10.1109/ICCPEIC.2015.7259447), *IEEE International Conference on Computation of Power, Energy, Information and Communication (ICCPEIC)*, 2015
+- [Headlock: a wearable navigation aid that helps blind cane users traverse large open spaces](https://doi.org/10.1145/2661334.2661453), *International ACM SIGACCESS Conference on Computers \& Accessibility*, 2014
+
+### Upper limbs -- Bracelet / arm-bands
+- [Viia-hand: a Reach-and-grasp Restoration System Integrating Voice interaction, Computer vision and Auditory feedback for Blind Amputees](https://arxiv.org/abs/2308.06891), *arXiv*, 2023
+- [An assistive low-vision platform that augments spatial cognition through proprioceptive guidance: Point-to-Tell-and-Touch](https://doi.org/10.1109/IROS40897.2019.8967647), *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2019
+- [DLWV2: A Deep Learning-Based Wearable Vision-System with Vibrotactile-Feedback for Visually Impaired People to Reach Objects](https://doi.org/10.1109/IROS.2018.8593711), *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2018
+- [Navigation system for visually impaired people](https://doi.org/10.1109/ICCPEIC.2015.7259447), *IEEE International Conference on Computation of Power, Energy, Information and Communication (ICCPEIC)*, 2015
+- [Way-finding Electronic Bracelet for visually impaired people](https://doi.org/10.1109/PHT.2013.6461334), *IEEE Point-of-Care Healthcare Technologies (PHT)*, 2013
+- [Electrocutaneous Communication in a Guide Dog Robot (MELDOG)](https://doi.org/10.1109/TBME.1985.325561), *IEEE Transactions on Biomedical Engineering (TBME)*, 1985
+
+### Upper limbs -- Gloves
+- [Indoor way-finding method using IMU and magnetic tensor sensor measurements for visually impaired users](https://doi.org/10.1007/s41315-021-00163-6), *International Journal of Intelligent Robotics and Applications*, 2021
+- [Mechatronic System to Help Visually Impaired Users During Walking and Running](https://doi.org/10.1109/TITS.2017.2780621), *IEEE Transactions on Intelligent Transportation Systems*, 2018
+
+### Lower limbs -- Foot attachments
+- [Indoor way-finding method using IMU and magnetic tensor sensor measurements for visually impaired users](https://doi.org/10.1007/s41315-021-00163-6), *International Journal of Intelligent Robotics and Applications*, 2021
+- [An Outdoor Navigation System for Blind Pedestrians Using GPS and Tactile-Foot Feedback](https://www.mdpi.com/2076-3417/8/4/578), *MDPI Applied Sciences*, 2018
+- [Navigation system for visually impaired people](https://doi.org/10.1109/ICCPEIC.2015.7259447), *IEEE International Conference on Computation of Power, Energy, Information and Communication (ICCPEIC)*, 2015
+- [Wearable Navigation System for the Visually Impaired and Blind People](https://doi.org/10.1109/ICIS.2012.118), *IEEE/ACIS International Conference on Computer and Information Science*, 2012
+- [A Navigation Aid for Blind People](https://doi.org/10.1007/s10846-011-9555-7), *Journal of Intelligent {\&} Robotic Systems*, 2011
+
+### Lower limbs -- leg-bands
+- [Running Guidance for Visually Impaired People Using Sensory Augmentation Technology Based Robotic System](https://doi.org/10.1109/LRA.2023.3294718), *IEEE Robotics and Automation Letters (RA-L)*, 2023
+- [Robotic Guidance System for Visually Impaired Users Running Outdoors Using Haptic Feedback](https://doi.org/10.1109/IROS51168.2021.9636567), *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2021
+- [Hierarchical and Safe Motion Control for Cooperative Locomotion of Robotic Guide Dogs and Humans: A Hybrid Systems Approach](https://doi.org/10.1109/LRA.2019.2939719), *IEEE Robotics and Automation Letters (RA-L)*, 2020
+- [IOT-Based Navigation for Visually Impaired Using Arduino and Android](), *Springer Advances in Communication, Devices and Networking*, 2019
+
+### Torso - Chest-mounted
+- [Prototyping of a walking assistance system for visually impaired people using AI and LiDAR](https://doi.org/10.1145/3629296.3629364), *ACM International Conference on Education Technology and Computers*, 2024
+- [Detect and Approach: Close-Range Navigation Support for People with Blindness and Low Vision](), *Computer Vision -- ECCV 2022 Workshops*, 2023
+- [Vision-Based System for Assisting Blind People to Wander Unknown Environments in a Safe Way](https://doi.org/10.1155/2021/6685686), *Journal of Sensors*, 2021
+- [A Wearable Device for Indoor Imminent Danger Detection and Avoidance With Region-Based Ground Segmentation](https://doi.org/10.1109/ACCESS.2020.3028527), *IEEE Access*, 2020
+- [Mechatronic System to Help Visually Impaired Users During Walking and Running](https://doi.org/10.1109/TITS.2017.2780621), *IEEE Transactions on Intelligent Transportation Systems*, 2018
+- [CCNY Smart Cane](https://doi.org/10.1109/CYBER.2017.8446303), *IEEE International Conference on CYBER Technology in Automation, Control, and Intelligent Systems (CYBER)*, 2017
+- [Enabling independent navigation for visually impaired people through a wearable vision-based feedback system](https://doi.org/10.1109/ICRA.2017.7989772), *IEEE International Conference on Robotics and Automation (ICRA)*, 2017
+- [An indoor navigation aid for the visually impaired](https://doi.org/10.1109/ROBIO.2016.7866366), *IEEE International Conference on Robotics and Biomimetics (ROBIO)*, 2016
+- [ISANA: Wearable Context-Aware Indoor Assistive Navigation with Obstacle Avoidance for the Blind](), *Springer Computer Vision -- ECCV Workshops*, 2016
+- [Outdoor/Indoor Vision-Based Localization for Blind Pedestrian Navigation Assistance](https://doi.org/10.1142/S0219467810003937), *International Journal of Image and Graphics*, 2010
+
+### Torso -- Shoulders
+- [A Navigation Aid for Blind People](https://doi.org/10.1007/s10846-011-9555-7), *Journal of Intelligent {\&} Robotic Systems*, 2011
+- [Robot vision for the visually impaired](https://doi.org/10.1109/CVPRW.2010.5543579), *IEEE Computer Society Conference on Computer Vision and Pattern Recognition - Workshops (CVPR)*, 2010
+
+### Torso -- Necklace / Neck-hanging
+- [Navigation for the Vision Impaired with Spatial Audio and Ultrasonic Obstacle Sensors](), *Springer Computational Intelligence in Information Systems*, 2021
+- [An Indoor Wayfinding System Based on Geometric Features Aided Graph SLAM for the Visually Impaired](https://doi.org/10.1109/TNSRE.2017.2682265), *IEEE Transactions on Neural Systems and Rehabilitation Engineering (TNSRE)*, 2017
