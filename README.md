@@ -328,3 +328,25 @@ Navigating, and Orienting the Visually Impaired`
 ### Torso -- Necklace / Neck-hanging
 - [Navigation for the Vision Impaired with Spatial Audio and Ultrasonic Obstacle Sensors](), *Springer Computational Intelligence in Information Systems*, 2021
 - [An Indoor Wayfinding System Based on Geometric Features Aided Graph SLAM for the Visually Impaired](https://doi.org/10.1109/TNSRE.2017.2682265), *IEEE Transactions on Neural Systems and Rehabilitation Engineering (TNSRE)*, 2017
+
+### Waist -- Belt
+- [The Aerial Guide Dog: A Low-Cognitive-Load Indoor Electronic Travel Aid for Visually Impaired Individuals](https://www.mdpi.com/1424-8220/24/1/297), *MDPI Sensors*, 2024
+- [Vision-Based System for Assisting Blind People to Wander Unknown Environments in a Safe Way](https://doi.org/10.1155/2021/6685686), *Journal of Sensors*, 2021
+- [An AI Edge Computing Based Wearable Assistive Device for Visually Impaired People Zebra-Crossing Walking](https://doi.org/10.1109/ICCE46568.2020.9043132), *IEEE International Conference on Consumer Electronics (ICCE)*, 2020
+- [Safe Local Navigation for Visually Impaired Users With a Time-of-Flight and Haptic Feedback Device](https://doi.org/10.1109/TNSRE.2018.2800665), *IEEE Transactions on Neural Systems and Rehabilitation Engineering (TNSRE)*, 2018
+- [TactiBelt: Integrating Spatial Cognition and Mobility Theories into the Design of a Novel Orientation and Mobility Assistive Device for the Blind](), *Springer Computers Helping People with Special Needs*, 2018
+- [Enabling independent navigation for visually impaired people through a wearable vision-based feedback system](https://doi.org/10.1109/ICRA.2017.7989772), *IEEE International Conference on Robotics and Automation (ICRA)*, 2017
+- [A SLAM Based Semantic Indoor Navigation System for Visually Impaired Users](https://doi.org/10.1109/SMC.2015.258), *IEEE International Conference on Systems, Man, and Cybernetics (SMC)*, 2015
+- [Vibrotactile Guidance for Wayfinding of Blind Walkers](https://doi.org/10.1109/TOH.2015.2409980), *IEEE Transactions on Haptics*, 2015
+- [The design and implementation of a walking assistant system with vibrotactile indication and voice prompt for the visually impaired](https://doi.org/10.1109/ROBIO.2013.6739885), *IEEE International Conference on Robotics and Biomimetics (ROBIO)*, 2013
+- [The user as a sensor: navigating users with visual impairments in indoor spaces using tactile landmarks](https://doi.org/10.1145/2207676.2207735), *ACM SIGCHI Conference on Human Factors in Computing Systems*, 2012
+- [Tactile wayfinder: a non-visual support system for wayfinding](https://doi.org/10.1145/1463160.1463179), *ACM Nordic Conference on Human-Computer Interaction: Building Bridges*, 2008
+- [Electrocutaneous Communication in a Guide Dog Robot (MELDOG)](https://doi.org/10.1109/TBME.1985.325561), *IEEE Transactions on Biomedical Engineering (TBME)*, 1985
+
+### Wait -- Attached to belt
+- [The Aerial Guide Dog: A Low-Cognitive-Load Indoor Electronic Travel Aid for Visually Impaired Individuals](https://www.mdpi.com/1424-8220/24/1/297), *MDPI Sensors*, 2024
+- [An Outdoor Navigation System for Blind Pedestrians Using GPS and Tactile-Foot Feedback](https://www.mdpi.com/2076-3417/8/4/578), *MDPI Applied Sciences*, 2018
+- [ARGUS Autonomous Navigation System for People with Visual Impairments](), *Springer Computers Helping People with Special Needs*, 2014
+- [A Navigation Aid for Blind People](https://doi.org/10.1007/s10846-011-9555-7), *Journal of Intelligent {\&} Robotic Systems*, 2011
+
+
