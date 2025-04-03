@@ -141,7 +141,7 @@ Navigating, and Orienting the Visually Impaired`
 - [UNav: An Infrastructure-Independent Vision-Based Navigation System for People with Blindness and Low Vision](https://www.mdpi.com/1424-8220/22/22/8894), *MDPI Sensors*, 2022
 - [Prototyping of a walking assistance system for visually impaired people using AI and LiDAR](https://doi.org/10.1145/3629296.3629364), *ACM International Conference on Education Technology and Computers*, 2024
 
-# Detaild Device Type Breakdown
+# Detailed Device Type Breakdown
 
 ## Robot Systems Breakdowns
 
