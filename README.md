@@ -9,19 +9,19 @@ Navigating, and Orienting the Visually Impaired`
 - [Categories of Systems for Robotic Wayfinding](#systems-by-high-level-groupings)
   - [Robot + additions systems](#conventional-robot-systems)
     - [(Pure) Conventional Robots systems](#strictly-robots)
-    - [Hybrid Robot-(Augmented) White Cane systems](#Robots-mixed-with-(Augmented)-White-Canes)
-    - [Hybrid Robot-Wearable systems](#Robots-mixed-with-Wearables)  -- note: identical to list at [hybrid wearable-wearable systems](#Wearables-mixed-with-Robot-Systems)
-    - [Hybrid Robot-Phone/Handheld systems](#Robots-mixed-with-Phones–or-Handhelds)
+    - [Hybrid Robot-(Augmented) White Cane systems]([#robots-mixed-with-augmented-white-canes))
+    - [Hybrid Robot-Wearable systems](#robots-mixed-with-wearables)  -- note: identical to list at [hybrid wearable-robot systems](#wearables-mixed-with-robot-systems)
+    - [Hybrid Robot-Phone/Handheld systems](#wearables-mixed-with-phones-or-handhelds)
   - [Wearable + additions systems](#wearables)
     - [(Pure) Wearable systems](#strictly-wearables)
-    - [Hybrid Wearable-(Augmented) White Cane systems](#Wearables-mixed-with-(Augmented)-White-Canes)
-    - [Hybrid Wearable-Robot system](#Wearables-mixed-with-Robot-Systems) -- note: identical to list at [hybrid robot-wearable systems](#Robots-mixed-with-Wearables)
+    - [Hybrid Wearable-(Augmented) White Cane systems](#wearables-mixed-with-augmented-white-canes)
+    - [Hybrid Wearable-Robot system](#wearables-mixed-with-robot-systems) -- note: identical to list at [hybrid robot-wearable systems](#robots-mixed-with-wearables)
     - [Hybrid Wearable-Phone/Handheld systems](#wearables-mixed-with-phones-or-handhelds)
 - [Detailed breakdown of system embodiments](#detailed-device-type-breakdown)
-  - [Conventional Robots](#Robot-Systems-Breakdowns)
+  - [Conventional Robots](#robot-systems-breakdowns)
     - [Wheeled](#wheeled)
     - [Legged](#legged)
-    - [Walker (e.g., for someone with mobility limitations](#walker)
+    - [Walker (e.g., for someone with mobility limitations)](#walker)
     - [Manipulator Arms](#manipulator-arm)
     - [Drones](#drone)
   - [Wearables](#wearables-breakdown)
@@ -175,7 +175,7 @@ Navigating, and Orienting the Visually Impaired`
 - [Navigation for the Vision Impaired with Spatial Audio and Ultrasonic Obstacle Sensors](), *Springer Computational Intelligence in Information Systems*, 2021
 - [Design of a Navigation System for the Blind/Visually Impaired](), *Springer Forthcoming Networks and Sustainability in the IoT Era*, 2021
 
-### Wearables mixed with Robot Systemss
+### Wearables mixed with Robot Systems
 - [Electrocutaneous Communication in a Guide Dog Robot (MELDOG)](https://doi.org/10.1109/TBME.1985.325561), *IEEE Transactions on Biomedical Engineering (TBME)*, 1985
 - [The design and implementation of a walking assistant system with vibrotactile indication and voice prompt for the visually impaired](https://doi.org/10.1109/ROBIO.2013.6739885), *IEEE International Conference on Robotics and Biomimetics (ROBIO)*, 2013
 - [Hierarchical and Safe Motion Control for Cooperative Locomotion of Robotic Guide Dogs and Humans: A Hybrid Systems Approach](https://doi.org/10.1109/LRA.2019.2939719), *IEEE RA-L*, 2020
