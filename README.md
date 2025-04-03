@@ -364,7 +364,7 @@ Navigating, and Orienting the Visually Impaired`
 
 
 ## Augmented White Cane Breakdown
-
+Note that all morphologies of a white cane are generally similar; instead we annotate how the canes are augmented (e.g., what sensors)
 ### Cameras -- Monocular
 - [ANAVI: Advanced Navigation Assistance for Visually Impaired](), *Springer Intelligent Computing and Applications*, 2021
 - [Design of a Navigation System for the Blind/Visually Impaired](), *Springer Forthcoming Networks and Sustainability in the IoT Era*, 2021
