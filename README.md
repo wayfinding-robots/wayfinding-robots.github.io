@@ -17,6 +17,45 @@ Navigating, and Orienting the Visually Impaired`
     - [Hybrid Wearable-(Augmented) White Cane systems](#Wearables-mixed-with-(Augmented)-White-Canes)
     - [Hybrid Wearable-Robot system](#Wearables-mixed-with-Robot-Systems) -- note: identical to list at [hybrid robot-wearable systems](#Robots-mixed-with-Wearables)
     - [Hybrid Wearable-Phone/Handheld systems](#wearables-mixed-with-phones-or-handhelds)
+- [Detailed breakdown of system embodiments](#detailed-device-type-breakdown)
+  - [Conventional Robots](#Robot-Systems-Breakdowns)
+    - [Wheeled](#wheeled)
+    - [Legged](#legged)
+    - [Walker (e.g., for someone with mobility limitations](#walker)
+    - [Manipulator Arms](#manipulator-arm)
+    - [Drones](#drone)
+  - [Wearables](#wearables-breakdown)
+    - Head
+      - [Headset / earphones](#head----headset--earphones)
+      - [AR / VR / MR / XR / Glasses](#head----glasses-eg-google-glasses)
+      - [Helmet / Head-mounted](#head----helmet--head-mounted)
+    - Upper-limbs
+      - [Bracelet / Arm-bands](#upper-limbs----bracelet--arm-bands)
+      - [Gloves](#upper-limbs----gloves)
+    - Lower-limbs
+      - [Foot / Shoe attachments](#lower-limbs----foot-attachments) 
+      - [Leg-bands](#lower-limbs----leg-bands)
+    - Torso
+      - [Chest-mounted](#torso---chest-mounted)
+      - [Shoulder-mounted](#torso----shoulders)
+      - [Necklace / Neck-hanging](#torso----necklace--neck-hanging)
+    - Waist
+      - [Belt](#waist----belt)
+      - [Attached to belt](#waist----attached-to-belt)
+  - [(Augmented) White Canes](#augmented-white-cane-breakdown) -- note that all morphologies of a white cane are generally similar
+    - Cameras
+      - [Monocular](#cameras----monocular)
+      - [Time-of-Flight / 3D](#cameras----time-of-flight--3d)
+      - [Stereo / RGB-D](cameras----stereo--rgb-d)
+      - [Tracking](#cameras----tracking)
+    - Ranging
+      - [(Ultra-)Sonic](#ranging----ultra-sonic)
+      - [Infrared](#ranging----infrared)
+      - [LiDAR](#ranging----lidar)
+    - [Wheel-like / encoder-tip](#wheel-like--encoder-tip) #TODO
+    - [IMU](#imu)
+    - [GPS](#gps)
+    - [Force Sensor](#force-sensor)
 
 # Systems by high level groupings
 
