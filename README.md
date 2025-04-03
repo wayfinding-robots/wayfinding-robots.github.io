@@ -5,6 +5,19 @@ The purpose of this website is twofold. Specifically, for:
 Navigating, and Orienting the Visually Impaired`
 2) tracking both historical and contemporary advances in the fields of robotic wayfinding for people with visual impairments, low vision, and/or blindness (PwVI), including quadrupeds, wearables (e.g., headsets, AR glases, haptic belts), augmented canes, wheeled robots, ball bots, and more.
 
+### Table of Contents
+- [Categories of Systems for Robotic Wayfinding](#systems-by-high-level-groupings)
+  - [Robot + additions systems](#conventional-robot-systems)
+    - [(Pure) Conventional Robots systems](#strictly-robots)
+    - [Hybrid Robot-(Augmented) White Cane systems](#Robots-mixed-with-(Augmented)-White-Canes)
+    - [Hybrid Robot-Wearable systems](#Robots-mixed-with-Wearables)  -- note: identical to list at [hybrid wearable-wearable systems](#Wearables-mixed-with-Robot-Systems)
+    - [Hybrid Robot-Phone/Handheld systems](#Robots-mixed-with-Phones–or-Handhelds)
+  - [Wearable + additions systems](#wearables)
+    - [(Pure) Wearable systems](#strictly-wearables)
+    - [Hybrid Wearable-(Augmented) White Cane systems](#Wearables-mixed-with-(Augmented)-White-Canes)
+    - [Hybrid Wearable-Robot system](#Wearables-mixed-with-Robot-Systems) -- note: identical to list at [hybrid robot-wearable systems](#Robots-mixed-with-Wearables)
+    - [Hybrid Wearable-Phone/Handheld systems](#wearables-mixed-with-phones-or-handhelds)
+
 # Systems by high level groupings
 
 ## Conventional Robot Systems
