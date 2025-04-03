@@ -10,14 +10,14 @@ Navigating, and Orienting the Visually Impaired`
   - [Robot + additions systems](#conventional-robot-systems)
     - [(Pure) Conventional Robots systems](#strictly-robots)
     - [Hybrid Robot-(Augmented) White Cane systems]([#robots-mixed-with-augmented-white-canes))
-    - [Hybrid Robot-Wearable systems](#robots-mixed-with-wearables)  -- note: identical to list at [hybrid wearable-robot systems](#wearables-mixed-with-robot-systems)
+    - [Hybrid Robot-Wearable systems](#robots-mixed-with-wearables)  -- note that this is identical to list at [hybrid wearable-robot systems](#wearables-mixed-with-robot-systems)
     - [Hybrid Robot-Phone/Handheld systems](#wearables-mixed-with-phones-or-handhelds)
   - [Wearable + additions systems](#wearables)
     - [(Pure) Wearable systems](#strictly-wearables)
     - [Hybrid Wearable-(Augmented) White Cane systems](#wearables-mixed-with-augmented-white-canes)
-    - [Hybrid Wearable-Robot system](#wearables-mixed-with-robot-systems) -- note: identical to list at [hybrid robot-wearable systems](#robots-mixed-with-wearables)
+    - [Hybrid Wearable-Robot system](#wearables-mixed-with-robot-systems) -- note that this is identical to list at [hybrid robot-wearable systems](#robots-mixed-with-wearables)
     - [Hybrid Wearable-Phone/Handheld systems](#wearables-mixed-with-phones-or-handhelds)
-- [Detailed breakdown of system embodiments](#detailed-device-type-breakdown) -- note: if a paper's system includes e.g., a wheeled robot and a wearable device attached to their belt, it will appear under *both* sections
+- [Detailed breakdown of system embodiments](#detailed-device-type-breakdown) -- note that if a paper's system includes e.g., a wheeled robot and a wearable device attached to the user's belt, it will appear under *both* sections
   - [Conventional Robots](#robot-systems-breakdowns)
     - [Wheeled](#wheeled)
     - [Legged](#legged)
