@@ -21,7 +21,7 @@ Navigating, and Orienting the Visually Impaired`
   - [Conventional Robots](#robot-systems-breakdowns)
     - [Wheeled](#wheeled)
     - [Legged](#legged)
-    - [Walker (e.g., for someone with mobility limitations)](#walker)
+    - [Walkers](#walker) (e.g., for someone with mobility limitations)
     - [Manipulator Arms](#manipulator-arm)
     - [Drones](#drone)
   - [Wearables](#wearables-breakdown)
