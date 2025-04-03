@@ -17,7 +17,7 @@ Navigating, and Orienting the Visually Impaired`
     - [Hybrid Wearable-(Augmented) White Cane systems](#wearables-mixed-with-augmented-white-canes)
     - [Hybrid Wearable-Robot system](#wearables-mixed-with-robot-systems) -- note: identical to list at [hybrid robot-wearable systems](#robots-mixed-with-wearables)
     - [Hybrid Wearable-Phone/Handheld systems](#wearables-mixed-with-phones-or-handhelds)
-- [Detailed breakdown of system embodiments](#detailed-device-type-breakdown)
+- [Detailed breakdown of system embodiments](#detailed-device-type-breakdown) -- note: if a paper's system includes e.g., a wheeled robot and a wearable device attached to their belt, it will appear under *both* sections
   - [Conventional Robots](#robot-systems-breakdowns)
     - [Wheeled](#wheeled)
     - [Legged](#legged)
