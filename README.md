@@ -6,6 +6,7 @@ Navigating, and Orienting the Visually Impaired`
 2) tracking both historical and contemporary advances in the fields of robotic wayfinding for people with visual impairments, low vision, and/or blindness (PwVI), including quadrupeds, wearables (e.g., headsets, AR glases, haptic belts), augmented canes, wheeled robots, ball bots, and more.
 
 ### Table of Contents
+Generally, note that a work will appear under *all* sections that it may belong to. For example, a work that involves both a wheeled robot and a wearable device attached to the user's belt will be included under [Hybrid Robot-Wearable systems](#robots-mixed-with-wearables), [Hybrid Wearable-Robot system](#wearables-mixed-with-robot-systems), [Convetional Robots > Wheeled](#wheeled), and [Wearables > Waist > Attached to belt](#waist----attached-to-belt).
 - [Categories of Systems for Robotic Wayfinding](#systems-by-high-level-groupings)
   - [Robot + additions systems](#conventional-robot-systems)
     - [(Pure) Conventional Robots systems](#strictly-robots)
@@ -17,7 +18,7 @@ Navigating, and Orienting the Visually Impaired`
     - [Hybrid Wearable-(Augmented) White Cane systems](#wearables-mixed-with-augmented-white-canes)
     - [Hybrid Wearable-Robot system](#wearables-mixed-with-robot-systems) -- note that this is identical to list at [hybrid robot-wearable systems](#robots-mixed-with-wearables)
     - [Hybrid Wearable-Phone/Handheld systems](#wearables-mixed-with-phones-or-handhelds)
-- [Detailed breakdown of system embodiments](#detailed-device-type-breakdown) -- note that if a paper's system includes e.g., a wheeled robot and a wearable device attached to the user's belt, it will appear under *both* sections
+- [Detailed breakdown of system embodiments](#detailed-device-type-breakdown)
   - [Conventional Robots](#robot-systems-breakdowns)
     - [Wheeled](#wheeled)
     - [Legged](#legged)
