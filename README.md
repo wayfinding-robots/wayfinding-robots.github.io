@@ -4,7 +4,7 @@ The purpose of this website is threefold. Specifically, for:
 1) hosting the website and raw data analysis for the literature review `Beyond Canes and Guide Dogs: The Status of Robotic Solutions for Wayfinding,
 Navigating, and Orienting the Visually Impaired`
 2) tracking both historical and contemporary advances in the fields of robotic wayfinding for people with visual impairments, low vision, and/or blindness (PwVI), including quadrupeds, wearables (e.g., headsets, AR glases, haptic belts), augmented canes, wheeled robots, ball bots, and more.
-3) i am actively developing and adding to this list; if this list is missing your work or work you just thought was super cool, please make a pull request to add it! Unrelated, 🌟 this repo to stay in the loop :)
+3) i am actively developing and adding to this list; if this list is missing your work (or just work you just thought was super cool), please make a pull request to add it!  🌟 this repo to stay in the loop :)
 
 ### Table of Contents
 Generally, note that a work will appear under *all* sections that it may belong to. For example, a work that involves both a wheeled robot and a wearable device attached to the user's belt will be included under [Hybrid Robot-Wearable systems](#robots-mixed-with-wearables), [Hybrid Wearable-Robot system](#wearables-mixed-with-robot-systems), [Convetional Robots > Wheeled](#wheeled), and [Wearables > Waist > Attached to belt](#waist----attached-to-belt).
