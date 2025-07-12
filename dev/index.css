@@ -43,3 +43,244 @@ td, th {
   text-align: left;
   padding: 8px;
 }
+
+/* Author section styling */
+.author-name a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid transparent;
+  color: #2196F3 !important; /* Blue color for linked authors */
+}
+
+.author-name a:hover {
+  color: #1976d2 !important;
+  border-bottom: 1px solid #1976d2;
+  text-decoration: underline;
+}
+
+/* Center author list and improve wrapping */
+h6.header {
+  text-align: center;
+  line-height: 1.6;
+  max-width: 70%;
+  margin: 0 auto 20px auto;
+}
+
+/* Paper button styling */
+.paper-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #1d58a7;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 2px solid #1d58a7;
+}
+
+.paper-button:hover {
+  background-color: #174a92;
+  border-color: #174a92;
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(29, 88, 167, 0.3);
+}
+
+.paper-button i {
+  vertical-align: middle;
+}
+
+/* University and lab link styling */
+.institution-link {
+  text-decoration: none;
+  color: inherit !important;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid transparent;
+}
+
+.institution-link:hover {
+  color: #1976d2 !important;
+  text-decoration: underline;
+  border-bottom: 1px solid #1976d2;
+}
+
+/* University logos and affiliation styling */
+.affiliation-block {
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.university-logo {
+  height: 80px;
+  width: auto;
+  max-width: 250px;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.university-logo:hover {
+  opacity: 1;
+}
+
+.lab-logo {
+  height: 40px;
+  width: auto;
+  max-width: 120px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+  margin: 5px 0;
+}
+
+.lab-logo:hover {
+  opacity: 1;
+}
+
+/* Lab section styling */
+.lab-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.lab-item {
+  text-align: center;
+  flex: 0 0 auto;
+}
+
+.lab-logo-inline {
+  height: 60px;
+  width: auto;
+  max-width: 200px;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.lab-logo-inline:hover {
+  opacity: 1;
+}
+
+/* Logo styling */
+.logo-item {
+  text-align: center;
+}
+
+.labs-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.lab-item {
+  text-align: center;
+  flex: 0 0 auto;
+}
+
+/* Adjust HCA lab positioning */
+.lab-item:first-child {
+  margin-right: 40px;
+}
+
+/* Adjust HFA lab positioning */
+.lab-item:last-child {
+  margin-left: 20px;
+}
+
+.affiliation-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+/* Ensure both university logos align at the same baseline */
+.row .col.m8, .row .col.m4 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.row .col.m8 .affiliation-block, .row .col.m4 .affiliation-block {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+/* University logo baseline alignment */
+.university-logo, .university-logo-large {
+  vertical-align: top;
+  margin-top: 0;
+}
+
+.university-logo-large {
+  width: 280px;
+  height: auto;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.university-logo {
+  width: 280px;
+  height: auto;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.university-logo:hover, .university-logo-large:hover {
+  opacity: 1;
+}
+
+.lab-logo-quarter {
+  height: 100px;
+  width: auto;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.lab-logo-quarter:hover {
+  opacity: 1;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+  .labs-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .university-logo-large, .university-logo {
+    height: 80px;
+  }
+  
+  .lab-logo-quarter {
+    height: 70px;
+  }
+}
+
+/* Responsive adjustments for inline lab logos */
+@media only screen and (max-width: 600px) {
+  .university-logo {
+    height: 60px;
+  }
+  
+  .lab-logo {
+    height: 30px;
+  }
+  
+  .affiliation-block {
+    padding: 10px;
+  }
+  
+  .lab-logo-inline {
+    height: 45px;
+    max-width: 150px;
+  }
+  
+  .lab-section {
+    gap: 10px;
+  }
+}

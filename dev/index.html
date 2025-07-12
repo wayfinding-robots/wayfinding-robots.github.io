@@ -8,7 +8,7 @@
     <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="index.css">
 
-    <title>WayFinding Survey</title>
+    <title>Robotic Wayfinding</title>
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -19,38 +19,115 @@
     <div class="section no-pad-bot" id="index-banner">
       <div class="container">
         <br><br>
-        <h2 class="header center grey-text text-darken-3">Beyond Canes and Guide Dogs: The Status of Robotic Solutions for Wayfinding, Navigating, and Orienting the Visually Impaired</h2>
-        <h6 class="header center grey-text text-darken-2">Jaughn Povey and other folks</h6>
+        <h2 class="header center grey-text text-darken-3">Beyond Canes and Guide Dogs: A Review of 40 Years of Robotics for Wayfinding, Navigating, and Orienting Assistance for People with Visually Impaired</h2>
+        <div class="row center">
+          <div class="col s12">
+            <h6 class="header grey-text text-darken-2" style="margin-bottom: 20px;">
+              <span class="author-name"><a href="https://jhpohovey.github.io/" target="_blank" class="grey-text text-darken-2">John Pohovey</a></span><sup>1</sup>, 
+              <span class="author-name"><a href="https://mclusardi.github.io/" target="_blank" class="grey-text text-darken-2">Maria Lusardi</a></span><sup>1,&phi;</sup>, 
+              <span class="author-name"><a href="https://aamzhas.github.io/" target="_blank" class="grey-text text-darken-2">Aamir Hasan</a></span><sup>1,&phi;</sup>,
+              <span class="author-name"><a href="https://shuijing725.github.io/" target="_blank" class="grey-text text-darken-2">Shuijing Liu</a></span><sup>1,3,&psi;</sup>,
+              <span class="author-name"><a href="https://andreschreiber.github.io/" target="_blank" class="grey-text text-darken-2">Andre Schreiber</a></span><sup>1,&psi;</sup>,
+              <span class="author-name"><a href="https://hfaging.ahs.illinois.edu/samuel-olatunji/" target="_blank" class="grey-text text-darken-2">Samuel Olatunji</a></span><sup>2</sup>,
+              <span class="author-name"><a href="https://hfaging.ahs.illinois.edu/wendy-rogers-2/" target="_blank" class="grey-text text-darken-2">Wendy Rogers</a></span><sup>2</sup>,
+              <span class="author-name"><a href="https://krdc.web.illinois.edu/" target="_blank" class="grey-text text-darken-2">Katherine Driggs-Campbell</a></span><sup>1</sup>
+            </h6>
+            
+            <p class="grey-text text-darken-1" style="font-size: 9pt; text-align: center; margin-top: 5px; margin-bottom: 15px;">
+              &phi; and &psi; denote equal contribution
+            </p>
+
+            <!-- Paper Links -->
+            <div class="center-align" style="margin-bottom: 25px;">
+              <a href="#" class="paper-button" style="margin: 0 8px;">
+                <i class="material-icons left" style="font-size: 16px; margin-right: 6px;">description</i>Paper (coming soon)
+              </a>
+              <a href="#" class="paper-button" style="margin: 0 8px;">
+                <i class="material-icons left" style="font-size: 16px; margin-right: 6px;">school</i>arXiv (coming soon)
+              </a>
+              <a href="#" class="paper-button" style="margin: 0 8px;">
+                <i class="material-icons left" style="font-size: 16px; margin-right: 6px;">storage</i>Dataset (coming soon)
+              </a>
+              <a href="#interactive-tables" class="paper-button" style="margin: 0 8px;">
+                <i class="material-icons left" style="font-size: 16px; margin-right: 6px;">table_chart</i>Interactive Tables
+              </a>
+            </div>
+            
+            <!-- Institution Logos and Affiliations -->
+            <div class="row" style="margin-top: 25px;">
+              <!-- UIUC with HCA and HFA labs -->
+              <div class="col s12 m6">
+                <div class="affiliation-block">
+                  <!-- UIUC Logo -->
+                  <div class="logo-item" style="margin-bottom: 30px;">
+                    <img src="../assets/uiuc.svg" alt="University of Illinois Urbana-Champaign" class="university-logo-large">
+                    <p class="grey-text text-darken-1" style="font-size: 11pt; margin-top: 8px;">
+                      <a href="https://illinois.edu/" target="_blank" class="institution-link">University of Illinois Urbana-Champaign</a>
+                    </p>
+                  </div>
+                  <!-- HCA and HFA Labs -->
+                  <div class="labs-container">
+                    <div class="lab-item">
+                      <img src="../assets/hca.svg" alt="Human Centered Autonomy Lab" class="lab-logo-quarter">
+                      <p class="grey-text text-darken-2" style="font-size: 10pt; margin-top: 8px;">
+                        <sup>1</sup><a href="https://thehcalab.web.illinois.edu/" target="_blank" class="institution-link">HCA Lab @ UIUC</a>
+                      </p>
+                    </div>
+                    <div class="lab-item">
+                      <img src="../assets/hfa.svg" alt="Human Factors and Aging Lab" class="lab-logo-quarter">
+                      <p class="grey-text text-darken-2" style="font-size: 10pt; margin-top: 8px;">
+                        <sup>2</sup><a href="https://hfaging.ahs.illinois.edu/" target="_blank" class="institution-link">HFA Lab @ UIUC</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- UT Austin -->
+              <div class="col s12 m6">
+                <div class="affiliation-block">
+                  <img src="../assets/utaustin.svg" alt="University of Texas at Austin" class="university-logo">
+                  <p class="grey-text text-darken-1" style="font-size: 11pt; margin-top: 8px;">
+                    <sup>3</sup><a href="https://www.utexas.edu/" target="_blank" class="institution-link">University of Texas at Austin</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="row center">
           <br>
           <h5 class="header col s12 light grey-text text-darken-3">
-            Comprehensive Survey Paper (John add more details please!)
+            We present the first comprehensive survey covering Wayfinding Robots for People with Visual Impairments (PwVI), spanning works from the past 4 decades (1984-2024). Wayfinding robots come in all shapes and sizes, such as colloquial robots, wearables, handhelds, and augmented white canes. Robotic wayfinding assistants are designed to help PwVI in every day tasks such as navigation, guidance, or localization. Tactile and kinesthetic haptics, audio, and sometimes even visual content are relied upon to create (bi-)directional communication interfaces. 
           </h5>
-          <h5 class="header col s12 light">
+          <!-- <h5 class="header col s12 light">
               <a href="" class="blue-grey-text text-darken-2"><u>Paper</u></a> | <a href="https://github.com/jhpohovey/robot-wayfinding-library" class="blue-grey-text text-darken-2"><u>Repository</u></a>
-          </h5>
+          </h5> -->
         </div>
         <br>
-        <div class="row center">
+        <!-- <div class="row center">
             Add image here if you want
-        </div>
+        </div> -->
         <br><br>
         
         <div class="row center">
           <h3 class="header center grey-text text-darken-3">Abstract</h3>
           <div class="divider"></div>
           <p class="light" style="font-size: 14pt; text-align: justify;">
-            Increasingly, robots are being explored as a means to assist People with Visual Impairments (PwVIs) as they face daily challenges in navigation and orientation that significantly impact their level of independence and quality of life. 
-            Traditional tools such as white canes, guide dogs, and tactile maps have utility but present limitations in adaptability and scope. This survey presents the first comprehensive review of robotic solutions for wayfinding, spanning over 150 works across the past 40 years. 
-            We propose unifying definitions of <em>wayfinding</em> and <em>robotic wayfinding</em> across fields including robotics, human factors, urban theory, and several other social sciences in the context of assistive robotics technologies for PwVIs, and provide rigorous classification across axes of embodiment, communication, sensing, and user evaluation. 
-            Informed by the gaps in the literature, we provide critical analysis and explanation into six research questions spanning from factors in device design trends, evolutions of unidirectional and bidirectional communication mediums and robustness of system evaluations and user studies.
-            We identify limitations and open challenges, outlining recommendations for future research directions.
-            We further analyze and compare state-of-the-art approaches spanning human-robot interaction, advanced perception pipelines, and experimental design.
+              Robotic aids that enrich the lives of Persons with Visual Impairments (PwVI) are becoming increasingly popular.
+              Their development is motivated by the significant navigational challenges faced by PwVI that negatively impacts their independence and quality of life.
+              % Traditional tools such as white canes, guide dogs, and tactile maps have utility but present limitations in adaptability and scope. 
+              Additionally, traditional tools such as white canes, guide dogs, and tactile maps, although useful, lack the adaptability and situational awareness that robots offer.
+              This survey presents the first comprehensive review of robotic solutions for wayfinding, spanning over 150 works in the past 40 years. 
+              We propose unifying definitions <em>wayfinding</em>w and <em>robotic wayfinding</em> across fields including robotics, human factors, urban theory, and several other social sciences in the context of assistive robotics technologies for PwVI, and provide rigorous classification along axes of embodiment, communication, sensing, and user evaluation. 
+              Informed by the gaps in the literature, we provide critical analysis and explanation into six research questions spanning from factors in device design trends, evolutions of unidirectional and bidirectional communication mediums, and robustness of system evaluations and user studies.
+              Furthermore, we analyze and compare state-of-the-art approaches spanning human-robot interaction, advanced perception pipelines, and experimental design.
+              We identify limitations and open challenges for developing robotic wayfinding solutions and outline recommendations for future research directions.
+              The full annotated dataset and detailed taxonomy for all surveyed papers are published in the Inter-university Consortium for Political and Social Research (ICPSR) repository <a href="https://doi.org/10.xxxx/ICPSRxxxxxx">(coming soon)</a> .
           </p>
         </div>
         <br>
 
-        <div class="row center">
+        <div class="row center" id="interactive-tables">
           <h3 class="header center grey-text text-darken-3">Interactive Tables</h3>
           <div class="divider"></div>
           <p class="light" style="font-size: 14pt; text-align: justify;">
@@ -431,7 +508,7 @@
           <div class="col s8">
             <p class="grey lighten-3" style="font-size: 14pt;">
             {
-              jaungh povoey paper bibtex
+              coming soon :)
             }
             </p>
           </div>
