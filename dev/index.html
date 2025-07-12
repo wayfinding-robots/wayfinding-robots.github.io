@@ -16,13 +16,20 @@
   </head>
 
   <body>
+    <!-- Thin sticky title bar (hidden by default, shows when scrolled) -->
+    <div class="sticky-title-bar" id="stickyTitleBar">
+      <div class="container">
+        <span>Beyond Canes and Guide Dogs</span>
+      </div>
+    </div>
+    
     <div class="section no-pad-bot" id="index-banner">
       <div class="container">
         <br><br>
         <h2 class="header center grey-text text-darken-3">Beyond Canes and Guide Dogs: A Review of 40 Years of Robotics for Wayfinding, Navigating, and Orienting Assistance for People with Visually Impaired</h2>
         <div class="row center">
           <div class="col s12">
-            <h6 class="header grey-text text-darken-2" style="margin-bottom: 20px;">
+            <h6 class="header grey-text text-darken-2" style="margin-bottom: 20px; max-width: 700px; margin-left: auto; margin-right: auto;">
               <span class="author-name"><a href="https://jhpohovey.github.io/" target="_blank" class="grey-text text-darken-2">John Pohovey</a></span><sup>1</sup>, 
               <span class="author-name"><a href="https://mclusardi.github.io/" target="_blank" class="grey-text text-darken-2">Maria Lusardi</a></span><sup>1,&phi;</sup>, 
               <span class="author-name"><a href="https://aamzhas.github.io/" target="_blank" class="grey-text text-darken-2">Aamir Hasan</a></span><sup>1,&phi;</sup>,
@@ -110,7 +117,7 @@
         <br><br>
         
         <div class="row center">
-          <h3 class="header center grey-text text-darken-3">Abstract</h3>
+          <h3 class="sticky-section-title header center grey-text text-darken-3">Abstract</h3>
           <div class="divider"></div>
           <p class="light" style="font-size: 14pt; text-align: justify;">
               Robotic aids that enrich the lives of Persons with Visual Impairments (PwVI) are becoming increasingly popular.
@@ -138,11 +145,11 @@
           <br>
           
           <!-- BEGIN TABLE HLDC -->
-          <h4 class="header center grey-text text-darken-3">High-Level Device Categories</h4>
+          <h4 class="sticky-table-title header center grey-text text-darken-3">Wayfinding Robot Embodiments</h4>
           <br>
             <!-- TODO: make this an include via jquery (this can be done, but only once hosted for CORS error prevention) -->
-            <table class="grey-text text-darken-3">
-              <tr>
+            <table class="grey-text text-darken-3 sticky-table">
+              <tr class="sticky-header">
                 <th colspan="3" style="width: 60%; text-align: center;">Device Type</th>
                 <th style="width: 40%; text-align: center;">Works</th>
               </tr>
@@ -309,11 +316,11 @@
           <!-- END TABLE HLDC -->
 
           <!-- BEGIN TABLE DEV2USER -->
-          <h4 class="header center grey-text text-darken-3">Communication Method (Device-to-User)</h4>
+          <h4 class="sticky-table-title header center grey-text text-darken-3">Communication Method (Device-to-User)</h4>
           <br>
             <!-- TODO: make this an include via jquery (this can be done, but only once hosted for CORS error prevention) -->
-            <table class="grey-text text-darken-3">
-              <tr>
+            <table class="grey-text text-darken-3 sticky-table">
+              <tr class="sticky-header">
                 <th colspan="2" style="width: 60%; text-align: center;">Communication Method (Device-to-User)</th>
                 <th style="width: 40%; text-align: center;">Works</th>
               </tr>
@@ -406,11 +413,11 @@
 
 
           <!-- BEGIN TABLE USER2DEV -->
-          <h4 class="header center grey-text text-darken-3">Communication Method (User-to-Device)</h4>
+          <h4 class="sticky-table-title header center grey-text text-darken-3">Communication Method (User-to-Device)</h4>
           <br>
             <!-- TODO: make this an include via jquery (this can be done, but only once hosted for CORS error prevention) -->
-            <table class="grey-text text-darken-3">
-              <tr>
+            <table class="grey-text text-darken-3 sticky-table">
+              <tr class="sticky-header">
                 <th colspan="2" style="width: 60%; text-align: center;">Communication Method (User-to-Device)</th>
                 <th style="width: 40%; text-align: center;">Works</th>
               </tr>
@@ -481,7 +488,7 @@
         <br>
 
         <div class="row center">
-          <h3 class="header center grey-text text-darken-3">Analysis & Evaluation Spreadsheet</h3>
+          <h3 class="sticky-section-title header center grey-text text-darken-3">Analysis & Evaluation Spreadsheet</h3>
           <div class="divider"></div>
           <p class="light" style="font-size: 14pt; text-align: center;">
             We provide a spreadsheet with readers' summarizations and analyses of the papers below
@@ -502,7 +509,7 @@
         </div>
         
         <div class="row center">
-          <h3 class="header center grey-text text-darken-3">BibTeX</h3>
+          <h3 class="sticky-section-title header center grey-text text-darken-3">BibTeX</h3>
 
           <div class="col s2"></div>
           <div class="col s8">
@@ -520,5 +527,72 @@
 
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    
+    <script>
+      // Show/hide sticky title bar based on scroll position
+      window.addEventListener('scroll', function() {
+        const mainTitle = document.querySelector('#index-banner h2');
+        const stickyTitleBar = document.getElementById('stickyTitleBar');
+        const sectionHeaders = document.querySelectorAll('.sticky-section-title');
+        const tableTitles = document.querySelectorAll('.sticky-table-title');
+        const tableHeaders = document.querySelectorAll('.sticky-header');
+        
+        if (mainTitle && stickyTitleBar) {
+          const titleBottom = mainTitle.offsetTop + mainTitle.offsetHeight;
+          const scrollPosition = window.scrollY;
+          
+          if (scrollPosition > titleBottom) {
+            stickyTitleBar.classList.add('visible');
+            
+            // Adjust other sticky elements when title bar is visible
+            sectionHeaders.forEach(header => {
+              header.style.top = '30px';
+            });
+            
+            tableTitles.forEach(title => {
+              title.style.top = '100px'; // 30px (title bar) + 70px (section header)
+            });
+            
+            tableHeaders.forEach(header => {
+              header.style.top = '160px'; // 30px (title bar) + 70px (section) + 60px (table title)
+            });
+            
+          } else {
+            stickyTitleBar.classList.remove('visible');
+            
+            // Reset other sticky elements when title bar is hidden
+            sectionHeaders.forEach(header => {
+              header.style.top = '0px';
+            });
+            
+            tableTitles.forEach(title => {
+              title.style.top = '70px'; // Just section header
+            });
+            
+            tableHeaders.forEach(header => {
+              header.style.top = '130px'; // Section header + table title
+            });
+          }
+        }
+      });
+
+      // Add click functionality to toggle colors and randomize initial color
+      document.addEventListener('DOMContentLoaded', function() {
+        const stickyTitleBar = document.getElementById('stickyTitleBar');
+        
+        if (stickyTitleBar) {
+          // Randomize initial color on page load (50% chance for blue theme)
+          if (Math.random() < 0.5) {
+            stickyTitleBar.classList.add('blue-theme');
+          }
+          
+          // Add click functionality to toggle colors
+          stickyTitleBar.addEventListener('click', function() {
+            // Toggle between orange (#ff5f05) and blue (#1d58a7) themes
+            this.classList.toggle('blue-theme');
+          });
+        }
+      });
+    </script>
   </body>
 </html>
