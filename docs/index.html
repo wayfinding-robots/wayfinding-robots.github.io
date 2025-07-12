@@ -67,7 +67,7 @@
                 <div class="affiliation-block">
                   <!-- UIUC Logo -->
                   <div class="logo-item" style="margin-bottom: 30px;">
-                    <img src="../assets/uiuc.svg" alt="University of Illinois Urbana-Champaign" class="university-logo-large">
+                    <img src="assets/uiuc.svg" alt="University of Illinois Urbana-Champaign" class="university-logo-large">
                     <p class="grey-text text-darken-1" style="font-size: 11pt; margin-top: 8px;">
                       <a href="https://illinois.edu/" target="_blank" class="institution-link">University of Illinois Urbana-Champaign</a>
                     </p>
@@ -75,13 +75,13 @@
                   <!-- HCA and HFA Labs -->
                   <div class="labs-container">
                     <div class="lab-item">
-                      <img src="../assets/hca.svg" alt="Human Centered Autonomy Lab" class="lab-logo-quarter">
+                      <img src="assets/hca.svg" alt="Human Centered Autonomy Lab" class="lab-logo-quarter">
                       <p class="grey-text text-darken-2" style="font-size: 10pt; margin-top: 8px;">
                         <sup>1</sup><a href="https://thehcalab.web.illinois.edu/" target="_blank" class="institution-link">HCA Lab @ UIUC</a>
                       </p>
                     </div>
                     <div class="lab-item">
-                      <img src="../assets/hfa.svg" alt="Human Factors and Aging Lab" class="lab-logo-quarter">
+                      <img src="assets/hfa.svg" alt="Human Factors and Aging Lab" class="lab-logo-quarter">
                       <p class="grey-text text-darken-2" style="font-size: 10pt; margin-top: 8px;">
                         <sup>2</sup><a href="https://hfaging.ahs.illinois.edu/" target="_blank" class="institution-link">HFA Lab @ UIUC</a>
                       </p>
@@ -92,7 +92,7 @@
               <!-- UT Austin -->
               <div class="col s12 m6">
                 <div class="affiliation-block">
-                  <img src="../assets/utaustin.svg" alt="University of Texas at Austin" class="university-logo">
+                  <img src="assets/utaustin.svg" alt="University of Texas at Austin" class="university-logo">
                   <p class="grey-text text-darken-1" style="font-size: 11pt; margin-top: 8px;">
                     <sup>3</sup><a href="https://www.utexas.edu/" target="_blank" class="institution-link">University of Texas at Austin</a>
                   </p>
@@ -550,11 +550,11 @@
             });
             
             tableTitles.forEach(title => {
-              title.style.top = '100px'; // 30px (title bar) + 70px (section header)
+              title.style.top = '30px'; // Just title bar when visible
             });
             
             tableHeaders.forEach(header => {
-              header.style.top = '160px'; // 30px (title bar) + 70px (section) + 60px (table title)
+              header.style.top = '90px'; // 30px (title bar) + 60px (table title)
             });
             
           } else {
@@ -566,11 +566,11 @@
             });
             
             tableTitles.forEach(title => {
-              title.style.top = '70px'; // Just section header
+              title.style.top = '0px'; // No section header, start at top
             });
             
             tableHeaders.forEach(header => {
-              header.style.top = '130px'; // Section header + table title
+              header.style.top = '60px'; // Just table title height
             });
           }
         }
