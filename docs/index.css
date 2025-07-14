@@ -74,32 +74,56 @@ td, th {
   transition: none;
 }
 
-/* Author grid layout - fixed boxes */
+/* Author grid layout - fixed boxes with Edge compatibility */
 .author-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 12px 8px;
   line-height: 1.3;
+  /* Edge fallbacks */
+  -ms-flex-wrap: wrap;
+  -ms-flex-pack: center;
+  /* Remove gap and use margin fallback for Edge */
+  margin: -4px -6px;
 }
 
 .author-box {
   display: inline-block;
-  min-width: fit-content;
+  /* Edge-compatible sizing */
+  min-width: max-content;
+  width: auto;
+  flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  /* Margin-based spacing for Edge compatibility */
+  margin: 4px 6px;
 }
 
-/* Group-specific fading for equal contribution authors */
+/* Group-specific fading for equal contribution authors - Edge optimized */
 .author-name.phi-group.fading,
 .author-name.psi-group.fading {
   opacity: 0;
-  transform: translateY(-2px);
-  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+  /* Simplified transition for Edge compatibility */
+  transition: opacity 0.8s ease-in-out;
+  /* Edge-specific transition properties */
+  -ms-transition: opacity 0.8s ease-in-out;
+  /* Force hardware acceleration for smoother animation */
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
 }
 
 /* Ensure smooth fade-in when fading class is removed */
 .author-name.phi-group,
 .author-name.psi-group {
-  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+  transition: opacity 0.8s ease-in-out;
+  -ms-transition: opacity 0.8s ease-in-out;
+  /* Force hardware acceleration */
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  /* Prevent sub-pixel rendering issues in Edge */
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 .author-name.fade-out {
