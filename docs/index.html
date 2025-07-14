@@ -35,18 +35,36 @@
         <div class="row center">
           <div class="col s12">
             <h6 class="header grey-text text-darken-2" style="margin-bottom: 20px; max-width: 700px; margin-left: auto; margin-right: auto;">
-              <span class="author-name"><a href="https://jhpohovey.github.io/" target="_blank" class="grey-text text-darken-2">John Pohovey</a></span><sup>1</sup>, 
-              <span class="author-name"><a href="https://mclusardi.github.io/" target="_blank" class="grey-text text-darken-2">Maria Lusardi</a></span><sup>1,&phi;</sup>, 
-              <span class="author-name"><a href="https://aamzhas.github.io/" target="_blank" class="grey-text text-darken-2">Aamir Hasan</a></span><sup>1,&phi;</sup>,
-              <span class="author-name"><a href="https://shuijing725.github.io/" target="_blank" class="grey-text text-darken-2">Shuijing Liu</a></span><sup>1,3,&psi;</sup>,
-              <span class="author-name"><a href="https://andreschreiber.github.io/" target="_blank" class="grey-text text-darken-2">Andre Schreiber</a></span><sup>1,&psi;</sup>,
-              <span class="author-name"><a href="https://hfaging.ahs.illinois.edu/samuel-olatunji/" target="_blank" class="grey-text text-darken-2">Samuel Olatunji</a></span><sup>2</sup>,
-              <span class="author-name"><a href="https://hfaging.ahs.illinois.edu/wendy-rogers-2/" target="_blank" class="grey-text text-darken-2">Wendy Rogers</a></span><sup>2</sup>,
-              <span class="author-name"><a href="https://krdc.web.illinois.edu/" target="_blank" class="grey-text text-darken-2">Katherine Driggs-Campbell</a></span><sup>1</sup>
+              <div class="author-grid">
+                <div class="author-box" id="author-1">
+                  <span class="author-name"><a href="https://jhpohovey.github.io/" target="_blank" class="grey-text text-darken-2">John Pohovey</a><sup>1</sup></span>
+                </div>
+                <div class="author-box" id="author-2">
+                  <span class="author-name phi-group"><a href="https://mclusardi.github.io/" target="_blank" class="grey-text text-darken-2">Maria Lusardi</a><sup>1,&phi;</sup></span>
+                </div>
+                <div class="author-box" id="author-3">
+                  <span class="author-name phi-group"><a href="https://aamzhas.github.io/" target="_blank" class="grey-text text-darken-2">Aamir Hasan</a><sup>1,&phi;</sup></span>
+                </div>
+                <div class="author-box" id="author-4">
+                  <span class="author-name psi-group"><a href="https://shuijing725.github.io/" target="_blank" class="grey-text text-darken-2">Shuijing Liu</a><sup>1,3,&psi;</sup></span>
+                </div>
+                <div class="author-box" id="author-5">
+                  <span class="author-name psi-group"><a href="https://andreschreiber.github.io/" target="_blank" class="grey-text text-darken-2">Andre Schreiber</a><sup>1,&psi;</sup></span>
+                </div>
+                <div class="author-box" id="author-6">
+                  <span class="author-name"><a href="https://hfaging.ahs.illinois.edu/samuel-olatunji/" target="_blank" class="grey-text text-darken-2">Samuel Olatunji</a><sup>2</sup></span>
+                </div>
+                <div class="author-box" id="author-7">
+                  <span class="author-name"><a href="https://hfaging.ahs.illinois.edu/wendy-rogers-2/" target="_blank" class="grey-text text-darken-2">Wendy Rogers</a><sup>2</sup></span>
+                </div>
+                <div class="author-box" id="author-8">
+                  <span class="author-name"><a href="https://krdc.web.illinois.edu/" target="_blank" class="grey-text text-darken-2">Katherine Driggs-Campbell</a><sup>1</sup></span>
+                </div>
+              </div>
             </h6>
             
             <p class="grey-text text-darken-1" style="font-size: 9pt; text-align: center; margin-top: 5px; margin-bottom: 15px;">
-              &phi; and &psi; denote equal contribution
+              &phi; and &psi; denote equal contribution within each group, ordered randomly
             </p>
 
             <!-- Paper Links -->
@@ -597,6 +615,120 @@
             this.classList.toggle('blue-theme');
           });
         }
+      });
+
+      // Random author ordering for equal contribution groups with fixed box layout
+      let currentPhiOrder = [
+        { content: 'Maria Lusardi', href: 'https://mclusardi.github.io/', sup: '1,&phi;' },
+        { content: 'Aamir Hasan', href: 'https://aamzhas.github.io/', sup: '1,&phi;' }
+      ];
+      
+      let currentPsiOrder = [
+        { content: 'Shuijing Liu', href: 'https://shuijing725.github.io/', sup: '1,3,&psi;' },
+        { content: 'Andre Schreiber', href: 'https://andreschreiber.github.io/', sup: '1,&psi;' }
+      ];
+
+      function updateAuthorDisplay() {
+        // Update phi authors in their boxes
+        const phiBox1 = document.getElementById('author-2');
+        const phiBox2 = document.getElementById('author-3');
+        
+        if (phiBox1 && phiBox2) {
+          phiBox1.innerHTML = `<span class="author-name phi-group"><a href="${currentPhiOrder[0].href}" target="_blank" class="grey-text text-darken-2">${currentPhiOrder[0].content}</a><sup>${currentPhiOrder[0].sup}</sup></span>`;
+          phiBox2.innerHTML = `<span class="author-name phi-group"><a href="${currentPhiOrder[1].href}" target="_blank" class="grey-text text-darken-2">${currentPhiOrder[1].content}</a><sup>${currentPhiOrder[1].sup}</sup></span>`;
+        }
+        
+        // Update psi authors in their boxes
+        const psiBox1 = document.getElementById('author-4');
+        const psiBox2 = document.getElementById('author-5');
+        
+        if (psiBox1 && psiBox2) {
+          psiBox1.innerHTML = `<span class="author-name psi-group"><a href="${currentPsiOrder[0].href}" target="_blank" class="grey-text text-darken-2">${currentPsiOrder[0].content}</a><sup>${currentPsiOrder[0].sup}</sup></span>`;
+          psiBox2.innerHTML = `<span class="author-name psi-group"><a href="${currentPsiOrder[1].href}" target="_blank" class="grey-text text-darken-2">${currentPsiOrder[1].content}</a><sup>${currentPsiOrder[1].sup}</sup></span>`;
+        }
+      }
+
+      function shufflePhiAuthors() {
+        const phiElements = document.querySelectorAll('.phi-group');
+        if (phiElements.length === 0) return;
+
+        // Add fade effect only to phi group
+        phiElements.forEach(el => el.classList.add('fading'));
+        
+        setTimeout(() => {
+          // Shuffle phi authors
+          currentPhiOrder = [...currentPhiOrder].sort(() => Math.random() - 0.5);
+          updateAuthorDisplay();
+          
+          // Immediately add fading class to new elements to start from faded state
+          const newPhiElements = document.querySelectorAll('.phi-group');
+          newPhiElements.forEach(el => el.classList.add('fading'));
+          
+          // Then remove fade effect to trigger smooth fade-in
+          setTimeout(() => {
+            newPhiElements.forEach(el => el.classList.remove('fading'));
+          }, 50); // Small delay to ensure DOM is ready
+        }, 800); // Match CSS transition timing (0.8s)
+      }
+
+      function shufflePsiAuthors() {
+        const psiElements = document.querySelectorAll('.psi-group');
+        if (psiElements.length === 0) return;
+
+        // Add fade effect only to psi group
+        psiElements.forEach(el => el.classList.add('fading'));
+        
+        setTimeout(() => {
+          // Shuffle psi authors
+          currentPsiOrder = [...currentPsiOrder].sort(() => Math.random() - 0.5);
+          updateAuthorDisplay();
+          
+          // Immediately add fading class to new elements to start from faded state
+          const newPsiElements = document.querySelectorAll('.psi-group');
+          newPsiElements.forEach(el => el.classList.add('fading'));
+          
+          // Then remove fade effect to trigger smooth fade-in
+          setTimeout(() => {
+            newPsiElements.forEach(el => el.classList.remove('fading'));
+          }, 50); // Small delay to ensure DOM is ready
+        }, 800); // Match CSS transition timing (0.8s)
+      }
+
+      // Set up the musical timing pattern (4/4 time, 6-second "measure")
+      document.addEventListener('DOMContentLoaded', function() {
+        // Initial display
+        updateAuthorDisplay();
+        
+        // Set up the rhythmic pattern:
+        // Beat 1 (0s): Phi authors shuffle
+        // Beat 3 (3s): Psi authors shuffle
+        // Then repeat every 6 seconds (full "measure")
+        
+        setTimeout(() => {
+          shufflePhiAuthors(); // Initial phi shuffle at 1.5s
+          
+          // Set up the regular pattern
+          setInterval(() => {
+            shufflePhiAuthors(); // Beat 1 (phi authors)
+            
+            setTimeout(() => {
+              shufflePsiAuthors(); // Beat 3 (psi authors)
+            }, 3000); // 3 seconds later
+            
+          }, 6000); // Every 6 seconds (full measure)
+          
+          // Initial psi shuffle
+          setTimeout(() => {
+            shufflePsiAuthors();
+            
+            // Start psi interval offset by 3 seconds
+            setInterval(() => {
+              shufflePsiAuthors();
+            }, 6000);
+            
+          }, 3000); // 3 seconds after the first phi shuffle
+          
+        }, 1500); // Start after 1.5 seconds to let page load
       });
     </script>
   </body>
