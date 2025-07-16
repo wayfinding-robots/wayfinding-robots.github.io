@@ -64,7 +64,7 @@
             </h6>
             
             <p class="grey-text text-darken-1" style="font-size: 9pt; text-align: center; margin-top: 5px; margin-bottom: 15px;">
-              &phi; and &psi; denote equal contribution within each group, ordered randomly
+              &phi; and &psi; denote equal contribution within each group, order alternates
             </p>
 
             <!-- Paper Links -->
@@ -617,7 +617,7 @@
         }
       });
 
-      // Random author ordering for equal contribution groups with fixed box layout
+      // Deterministic author swapping for equal contribution groups with fixed box layout
       let currentPhiOrder = [
         { content: 'Maria Lusardi', href: 'https://mclusardi.github.io/', sup: '1,&phi;' },
         { content: 'Aamir Hasan', href: 'https://aamzhas.github.io/', sup: '1,&phi;' }
@@ -656,8 +656,8 @@
         phiElements.forEach(el => el.classList.add('fading'));
         
         setTimeout(() => {
-          // Shuffle phi authors
-          currentPhiOrder = [...currentPhiOrder].sort(() => Math.random() - 0.5);
+          // Swap phi authors (deterministic alternation)
+          currentPhiOrder = [currentPhiOrder[1], currentPhiOrder[0]];
           updateAuthorDisplay();
           
           // Immediately add fading class to new elements to start from faded state
@@ -679,8 +679,8 @@
         psiElements.forEach(el => el.classList.add('fading'));
         
         setTimeout(() => {
-          // Shuffle psi authors
-          currentPsiOrder = [...currentPsiOrder].sort(() => Math.random() - 0.5);
+          // Swap psi authors (deterministic alternation)
+          currentPsiOrder = [currentPsiOrder[1], currentPsiOrder[0]];
           updateAuthorDisplay();
           
           // Immediately add fading class to new elements to start from faded state
@@ -694,15 +694,15 @@
         }, 800); // Match CSS transition timing (0.8s)
       }
 
-      // Set up the musical timing pattern (4/4 time, 6-second "measure")
+      // Set up the musical timing pattern (4/4 time, 4-second "measure")
       document.addEventListener('DOMContentLoaded', function() {
         // Initial display
         updateAuthorDisplay();
         
         // Set up the rhythmic pattern:
         // Beat 1 (0s): Phi authors shuffle
-        // Beat 3 (3s): Psi authors shuffle
-        // Then repeat every 6 seconds (full "measure")
+        // Beat 3 (2s): Psi authors shuffle
+        // Then repeat every 4 seconds (full "measure")
         
         setTimeout(() => {
           shufflePhiAuthors(); // Initial phi shuffle at 1.5s
@@ -713,20 +713,20 @@
             
             setTimeout(() => {
               shufflePsiAuthors(); // Beat 3 (psi authors)
-            }, 3000); // 3 seconds later
+            }, 2000); // 2 seconds later
             
-          }, 6000); // Every 6 seconds (full measure)
+          }, 4000); // Every 4 seconds (full measure)
           
           // Initial psi shuffle
           setTimeout(() => {
             shufflePsiAuthors();
             
-            // Start psi interval offset by 3 seconds
+            // Start psi interval offset by 2 seconds
             setInterval(() => {
               shufflePsiAuthors();
-            }, 6000);
+            }, 4000);
             
-          }, 3000); // 3 seconds after the first phi shuffle
+          }, 2000); // 2 seconds after the first phi shuffle
           
         }, 1500); // Start after 1.5 seconds to let page load
       });
