@@ -650,6 +650,10 @@ organization = {Inter-university Consortium for Political and Social Research [d
         { content: 'Andre Schreiber', href: 'https://andreschreiber.github.io/', sup: '1,&psi;' }
       ];
 
+      // Race condition guards
+      let phiShuffling = false;
+      let psiShuffling = false;
+
       function updateAuthorDisplay() {
         // Update phi authors in their boxes
         const phiBox1 = document.getElementById('author-2');
@@ -671,9 +675,13 @@ organization = {Inter-university Consortium for Political and Social Research [d
       }
 
       function shufflePhiAuthors() {
+        if (phiShuffling) return; // Prevent overlapping shuffles
+        
         const phiElements = document.querySelectorAll('.phi-group');
         if (phiElements.length === 0) return;
 
+        phiShuffling = true;
+        
         // Add fade effect only to phi group
         phiElements.forEach(el => el.classList.add('fading'));
         
@@ -689,20 +697,30 @@ organization = {Inter-university Consortium for Political and Social Research [d
           // Then remove fade effect to trigger smooth fade-in
           setTimeout(() => {
             newPhiElements.forEach(el => el.classList.remove('fading'));
+            phiShuffling = false; // Reset guard
           }, 50); // Small delay to ensure DOM is ready
         }, 800); // Match CSS transition timing (0.8s)
       }
 
       function shufflePsiAuthors() {
+        if (psiShuffling) {
+          console.log('ψ shuffle blocked - already in progress');
+          return; // Prevent overlapping shuffles
+        }
+        
         const psiElements = document.querySelectorAll('.psi-group');
         if (psiElements.length === 0) return;
 
+        console.log('ψ shuffle starting');
+        psiShuffling = true;
+        
         // Add fade effect only to psi group
         psiElements.forEach(el => el.classList.add('fading'));
         
         setTimeout(() => {
           // Swap psi authors (deterministic alternation)
           currentPsiOrder = [currentPsiOrder[1], currentPsiOrder[0]];
+          console.log('ψ shuffle: swapped to', currentPsiOrder.map(a => a.content));
           updateAuthorDisplay();
           
           // Immediately add fading class to new elements to start from faded state
@@ -712,6 +730,8 @@ organization = {Inter-university Consortium for Political and Social Research [d
           // Then remove fade effect to trigger smooth fade-in
           setTimeout(() => {
             newPsiElements.forEach(el => el.classList.remove('fading'));
+            psiShuffling = false; // Reset guard
+            console.log('ψ shuffle completed');
           }, 50); // Small delay to ensure DOM is ready
         }, 800); // Match CSS transition timing (0.8s)
       }
@@ -739,16 +759,10 @@ organization = {Inter-university Consortium for Political and Social Research [d
             
           }, 4000); // Every 4 seconds (full measure)
           
-          // Initial psi shuffle
+          // Initial psi shuffle at proper offset
           setTimeout(() => {
-            shufflePsiAuthors();
-            
-            // Start psi interval offset by 2 seconds
-            setInterval(() => {
-              shufflePsiAuthors();
-            }, 4000);
-            
-          }, 2000); // 2 seconds after the first phi shuffle
+            shufflePsiAuthors(); // Initial psi shuffle
+          }, 2000); // 2 seconds after first phi shuffle (at t=3.5s)
           
         }, 1500); // Start after 1.5 seconds to let page load
       });
