@@ -172,7 +172,7 @@
           <div class="divider"></div>
           <p class="light" style="font-size: 14pt; text-align: justify;">
             We provide interactive tables from our paper below.
-            Hovering over the references provided a tooltip with the BibTeX for that reference. Similarly, clicking on a reference will redirect you to the BibTeX file so it can be copied.
+            Hovering over the references provided a tooltip with the BibTeX for that reference. Similarly, clicking on a reference will open the corresponding paper's URL in a new tab.
           </p>
 
           <br>
@@ -736,10 +736,64 @@ organization = {Inter-university Consortium for Political and Social Research [d
         }, 800); // Match CSS transition timing (0.8s)
       }
 
+      // Function to extract URL from BibTeX tooltip
+      function extractUrlFromTooltip(tooltipText) {
+        // Try to find URL field in BibTeX
+        const urlMatch = tooltipText.match(/url\s*=\s*{([^}]+)}/i);
+        if (urlMatch) {
+          let url = urlMatch[1].trim();
+          // Clean up any extra characters that might be in the URL
+          url = url.replace(/[,\s]+$/, ''); // Remove trailing commas and spaces
+          return url;
+        }
+        
+        // Try to find DOI and convert to URL
+        const doiMatch = tooltipText.match(/doi\s*=\s*{([^}]+)}/i);
+        if (doiMatch) {
+          let doi = doiMatch[1].trim();
+          // Clean up any extra characters
+          doi = doi.replace(/[,\s]+$/, '');
+          // Handle both DOI URLs and plain DOI strings
+          if (doi.startsWith('http')) {
+            return doi;
+          } else {
+            return `https://doi.org/${doi}`;
+          }
+        }
+        
+        return null;
+      }
+
+      // Set up click handlers for table entries
+      function setupTableClickHandlers() {
+        const tableLinks = document.querySelectorAll('td a[href*="bibtex/"]');
+        tableLinks.forEach(link => {
+          link.addEventListener('click', function(e) {
+            e.preventDefault(); // Prevent default download behavior
+            
+            // Find the tooltip span
+            const tooltipSpan = this.parentElement.querySelector('.tooltiptext');
+            if (tooltipSpan) {
+              const url = extractUrlFromTooltip(tooltipSpan.textContent);
+              if (url) {
+                window.open(url, '_blank');
+              } else {
+                // Fallback: show alert if no URL found
+                const paperTitle = this.textContent.trim();
+                alert(`No URL or DOI found for "${paperTitle}". This paper may not be available online or the BibTeX entry may be incomplete.`);
+              }
+            }
+          });
+        });
+      }
+
       // Set up the musical timing pattern (4/4 time, 4-second "measure")
       document.addEventListener('DOMContentLoaded', function() {
         // Initial display
         updateAuthorDisplay();
+        
+        // Set up table click handlers
+        setupTableClickHandlers();
         
         // Set up the rhythmic pattern:
         // Beat 1 (0s): Phi authors shuffle
