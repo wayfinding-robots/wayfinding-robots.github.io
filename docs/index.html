@@ -18,6 +18,7 @@
     <link rel="shortcut icon" href="assets/illini.ico">
 
     <title>Surveying 40 Years of Robot-assisted Wayfinding</title>
+    <meta name="description" content="Comprehensive survey of 4 decades of robot-assisted wayfinding for people with visual impairments. Includes definitions, taxonomy, interactive tables, and dataset.">
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -35,7 +36,7 @@
     <div class="section no-pad-bot" id="index-banner">
       <div class="container">
         <br><br>
-        <h2 class="header center grey-text text-darken-3">Beyond Canes and Guide Dogs: A Review of 40 Years of Robotics for Wayfinding, Navigating, and Orienting Assistance for People with Visual Impairments</h2>
+        <h1 class="header center grey-text text-darken-3">Beyond Canes and Guide Dogs: 40 Years of Robot-Assisted Wayfinding for People with Visual Impairments</h1>
         <div class="row center">
           <div class="col s12">
             <h6 class="header grey-text text-darken-2" style="margin-bottom: 20px; max-width: 700px; margin-left: auto; margin-right: auto;">
@@ -597,7 +598,11 @@ organization = {Inter-university Consortium for Political and Social Research [d
     <script>
       // Show/hide sticky title bar based on scroll position
       window.addEventListener('scroll', function() {
-        const mainTitle = document.querySelector('#index-banner h2');
+        // Support either H1 or H2 as the main title for sticky bar logic
+        let mainTitle = document.querySelector('#index-banner h1');
+        if (!mainTitle) {
+          mainTitle = document.querySelector('#index-banner h2');
+        }
         const stickyTitleBar = document.getElementById('stickyTitleBar');
         const sectionHeaders = document.querySelectorAll('.sticky-section-title');
         const tableTitles = document.querySelectorAll('.sticky-table-title');
