@@ -1,0 +1,11 @@
+User-agent: *
+# Allow all HTML documents site-wide (root and subpaths)
+Allow: /*.html$
+Allow: /*.xml$
+
+# block heavy/non-content directories
+Disallow: /assets/
+Disallow: /materialize/
+Disallow: /bibtex/
+
+Sitemap: https://wayfinding-robots.github.io/sitemap.xml
